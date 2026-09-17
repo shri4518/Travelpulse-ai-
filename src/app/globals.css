@@ -1,0 +1,150 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-serif);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Editorial Terroir Custom Shadows */
+  --shadow-editorial-sm: 0 2px 6px -1px rgba(31, 61, 43, 0.04);
+  --shadow-editorial-md: 0 4px 20px -2px rgba(31, 61, 43, 0.06);
+  --shadow-editorial-lg: 0 20px 40px -8px rgba(14, 77, 74, 0.12);
+}
+
+:root {
+  --background: #FAF7F2;
+  --foreground: #1C1C1C;
+  --card: #FFFFFF;
+  --card-foreground: #1C1C1C;
+  --popover: #FFFFFF;
+  --popover-foreground: #1C1C1C;
+  --primary: #1F3D2B;
+  --primary-foreground: #FFFFFF;
+  --secondary: #0E4D4A;
+  --secondary-foreground: #FFFFFF;
+  --muted: #F5F1EA;
+  --muted-foreground: #6B6B6B;
+  --accent: #E27D4F;
+  --accent-foreground: #FFFFFF;
+  --destructive: #CB6639;
+  --border: #E8E3DA;
+  --input: #E8E3DA;
+  --ring: #1F3D2B;
+  --radius: 0.75rem;
+  
+  --chart-1: #1F3D2B;
+  --chart-2: #0E4D4A;
+  --chart-3: #E27D4F;
+  --chart-4: #A9C9D6;
+  --chart-5: #1C1C1C;
+  
+  --sidebar: #FAF7F2;
+  --sidebar-foreground: #1C1C1C;
+  --sidebar-primary: #1F3D2B;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F5F1EA;
+  --sidebar-accent-foreground: #1C1C1C;
+  --sidebar-border: #E8E3DA;
+  --sidebar-ring: #1F3D2B;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-forest {
+    background: linear-gradient(135deg, #1F3D2B 0%, #0E4D4A 100%);
+  }
+  
+  .gradient-sky {
+    background: linear-gradient(135deg, #A9C9D6 0%, #2f6764 100%);
+  }
+  
+  .gradient-terracotta {
+    background: linear-gradient(135deg, #CB6639 0%, #E27D4F 100%);
+  }
+  
+  .glass {
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 61, 43, 0.08);
+    box-shadow: var(--shadow-editorial-md);
+  }
+  
+  .glass-strong {
+    background: #FAF7F2;
+    border: 1px solid rgba(31, 61, 43, 0.12);
+    box-shadow: var(--shadow-editorial-lg);
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .animate-gradient-x {
+    background-size: 200% 200%;
+    animation: gradient-x 15s ease infinite;
+  }
+}
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
