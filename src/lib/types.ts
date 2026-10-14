@@ -68,30 +68,38 @@ export type AttractionType =
   | 'park'
   | 'plateau'
   | 'museum'
-  | 'market';
+  | 'market'
+  | 'monument'
+  | 'beach'
+  | 'valley';
 
 export type CrowdLevel = 'LOW' | 'MEDIUM' | 'HIGH';
 
 export interface Business {
   id: string;
   destination_id: string;
-  owner_id: string | null;
+  owner_id?: string | null;
   name: string;
   category: BusinessCategory;
   description: string;
   latitude: number;
   longitude: number;
-  image_url: string;
-  price_range: 'budget' | 'mid-range' | 'premium';
+  image_url?: string;
+  price_range?: 'budget' | 'mid-range' | 'premium';
   price_per_unit: number;
   rating: number;
   review_count: number;
-  contact_phone: string;
-  contact_email: string;
+  reviews?: number;
+  contact_phone?: string;
+  contact_email?: string;
   address: string;
+  location?: string;
   amenities: string[];
-  is_local: boolean;
-  is_verified: boolean;
+  is_local?: boolean;
+  is_verified?: boolean;
+  eco_certified?: boolean;
+  is_open?: boolean;
+  price_level?: number;
 }
 
 export type BusinessCategory =
@@ -160,12 +168,16 @@ export interface SafetyFacility {
   id: string;
   destination_id: string;
   name: string;
-  type: 'hospital' | 'police' | 'fire_station' | 'pharmacy' | 'emergency';
+  type: 'hospital' | 'police' | 'fire_station' | 'pharmacy' | 'emergency' | 'clinic';
   latitude: number;
   longitude: number;
   phone: string;
   address: string;
-  is_24hr: boolean;
+  is_24hr?: boolean;
+  is_24_7?: boolean;
+  hours?: string;
+  verification_status?: string;
+  emergency_services?: string[];
 }
 
 export interface TourismAnalytics {

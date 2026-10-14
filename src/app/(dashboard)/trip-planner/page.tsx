@@ -13,7 +13,7 @@ import { Badge } from '@/components/ui/badge';
 import { Checkbox } from '@/components/ui/checkbox';
 import { getItineraryForDestination } from '@/lib/data/seed-itineraries';
 import { INTEREST_OPTIONS, FOOD_PREFERENCES, ACCOMMODATION_PREFERENCES, TRAVEL_STYLES, WEATHER_IMPACT, CROWD_IMPACT, TRAFFIC_IMPACT } from '@/lib/constants';
-import { ItineraryItem } from '@/lib/types';
+import { Itinerary, ItineraryItem } from '@/lib/types';
 import {
   Route, ArrowRight, Sparkles, MapPin, Clock, IndianRupee,
   Navigation, Store, Leaf, Brain, Calendar, Users, Star,
@@ -131,14 +131,14 @@ export default function TripPlannerPage() {
       optimizedItems.push(...reordered);
     }
 
-    setItinerary(prev => ({ ...prev, items: optimizedItems }));
+    setItinerary(prev => prev ? ({ ...prev, items: optimizedItems }) : null);
     setOptimized(true);
   };
 
-  const days = itinerary ? [...new Set(itinerary.items.map(i => i.day))] : [];
-  const totalCost = itinerary ? itinerary.items.reduce((sum, i) => sum + i.estimated_cost, 0) : 0;
-  const totalDistance = itinerary ? itinerary.items.reduce((sum, i) => sum + i.distance_km, 0) : 0;
-  const localBizCount = itinerary ? new Set(itinerary.items.filter(i => ['food', 'experience', 'shopping'].includes(i.type)).map(i => i.location)).size : 0;
+  const days: number[] = itinerary ? Array.from(new Set(itinerary.items.map((i: ItineraryItem) => i.day))) : [];
+  const totalCost = itinerary ? itinerary.items.reduce((sum: number, i: ItineraryItem) => sum + i.estimated_cost, 0) : 0;
+  const totalDistance = itinerary ? itinerary.items.reduce((sum: number, i: ItineraryItem) => sum + i.distance_km, 0) : 0;
+  const localBizCount = itinerary ? new Set(itinerary.items.filter((i: ItineraryItem) => ['food', 'experience', 'shopping'].includes(i.type)).map((i: ItineraryItem) => i.location)).size : 0;
 
   if (step === 'form') {
     return (
@@ -382,9 +382,9 @@ export default function TripPlannerPage() {
 
       {/* ITINERARY DAYS */}
       <div className="space-y-4">
-        {days.map((day) => {
+        {days.map((day: number) => {
           const isExpanded = expandedDay === day;
-          const dayItems = itinerary.items.filter(i => i.day === day);
+          const dayItems = itinerary ? itinerary.items.filter((i: ItineraryItem) => i.day === day) : [];
           
           return (
             <Card key={day} className="bg-[#FFFFFF] border border-[#1F3D2B]/10 overflow-hidden shadow-editorial-sm rounded-2xl transition-colors hover:border-[#E27D4F]/30">
@@ -407,7 +407,7 @@ export default function TripPlannerPage() {
               {isExpanded && (
                 <div className="p-0">
                   <div className="divide-y divide-[#1F3D2B]/5">
-                    {dayItems.map((item, index) => (
+                    {dayItems.map((item: ItineraryItem, index: number) => (
                       <motion.div 
                         key={item.id}
                         initial={{ opacity: 0, x: -10 }}

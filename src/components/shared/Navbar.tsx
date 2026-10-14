@@ -87,18 +87,18 @@ export function Navbar() {
                     <p className="text-xs text-muted-foreground capitalize">{user.role.toLowerCase()}</p>
                   </div>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem asChild>
-                    <Link href={dashboardHref} className="cursor-pointer">
+                  <Link href={dashboardHref} className="w-full">
+                    <DropdownMenuItem className="cursor-pointer">
                       <LayoutDashboard className="mr-2 h-4 w-4" />
                       Dashboard
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/onboarding" className="cursor-pointer">
+                    </DropdownMenuItem>
+                  </Link>
+                  <Link href="/onboarding" className="w-full">
+                    <DropdownMenuItem className="cursor-pointer">
                       <User className="mr-2 h-4 w-4" />
                       Profile
-                    </Link>
-                  </DropdownMenuItem>
+                    </DropdownMenuItem>
+                  </Link>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem onClick={logout} className="cursor-pointer text-destructive">
                     <LogOut className="mr-2 h-4 w-4" />

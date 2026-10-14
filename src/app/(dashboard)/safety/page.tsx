@@ -116,7 +116,7 @@ export default function SafetyPage() {
                         <h3 className="font-bold text-lg font-serif text-[#1F3D2B]">{facility.name}</h3>
                         <p className="text-sm text-[#6B6B6B] font-sans flex items-center gap-1.5 mt-1">
                           <MapPin className="w-3.5 h-3.5 text-[#E27D4F]" />
-                          {facility.address || `${activeDest.name} region`}
+                          {facility.address || (activeDest ? `${activeDest.name} region` : 'Local region')}
                         </p>
                       </div>
                       <Badge variant="outline" className={`capitalize text-[10px] px-2 py-0.5 rounded-full shrink-0 font-sans ${
@@ -151,11 +151,11 @@ export default function SafetyPage() {
                     
                     <div className="flex gap-3 mt-5 pt-5 border-t border-[#1F3D2B]/5">
                       {facility.phone && (
-                        <Button variant="outline" size="sm" className="flex-1 rounded-full border-[#1F3D2B]/20 text-[#1F3D2B] hover:bg-[#FAF7F2] font-sans h-10" asChild>
-                          <a href={`tel:${facility.phone}`}>
+                        <a href={`tel:${facility.phone}`} className="flex-1">
+                          <Button variant="outline" size="sm" className="w-full rounded-full border-[#1F3D2B]/20 text-[#1F3D2B] hover:bg-[#FAF7F2] font-sans h-10">
                             <Phone className="w-4 h-4 mr-2" /> Call
-                          </a>
-                        </Button>
+                          </Button>
+                        </a>
                       )}
                       <Button className="flex-1 rounded-full bg-[#0E4D4A] hover:bg-[#1F3D2B] text-white font-sans h-10 border-0">
                         <Navigation className="w-4 h-4 mr-2" /> Navigate

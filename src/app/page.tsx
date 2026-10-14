@@ -41,7 +41,7 @@ const fadeUp = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+    transition: { delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
   }),
 };
 
@@ -286,12 +286,16 @@ export default function LandingPage() {
                 <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif">Ready to reinvent how you travel?</h2>
                 <p className="text-lg text-[#FAF7F2]/80 mb-8 font-sans">Join the intelligence revolution in Indian tourism today.</p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
-                  <Button size="lg" className="h-12 px-8 bg-[#E27D4F] hover:bg-[#CB6639] text-white border-0 font-bold rounded-full font-sans" asChild>
-                    <Link href="/signup">Start Planning Free</Link>
-                  </Button>
-                  <Button size="lg" variant="outline" className="h-12 px-8 rounded-full font-sans border-[#FAF7F2]/30 text-[#FAF7F2] hover:bg-[#FAF7F2]/10 hover:text-white" asChild>
-                    <Link href="/login">Demo Login</Link>
-                  </Button>
+                  <Link href="/signup">
+                    <Button size="lg" className="h-12 px-8 bg-[#E27D4F] hover:bg-[#CB6639] text-white border-0 font-bold rounded-full font-sans">
+                      Start Planning Free
+                    </Button>
+                  </Link>
+                  <Link href="/login">
+                    <Button size="lg" variant="outline" className="h-12 px-8 rounded-full font-sans border-[#FAF7F2]/30 text-[#FAF7F2] hover:bg-[#FAF7F2]/10 hover:text-white">
+                      Demo Login
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>
