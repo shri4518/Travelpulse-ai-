@@ -1,0 +1,1438 @@
+{
+  "profiles": [
+    {
+      "id": "demo-tourist-001",
+      "role": "TOURIST",
+      "full_name": "Arjun Sharma",
+      "avatar_url": null,
+      "onboarding_complete": true,
+      "age_range": "25-34",
+      "travel_group": "Friends",
+      "budget_preference": "Mid-Range (₹5,000-15,000)",
+      "preferred_destinations": [
+        "Mahabaleshwar",
+        "Lonavala"
+      ],
+      "travel_style": "Adventure",
+      "interests": [
+        "Nature",
+        "Adventure",
+        "Food",
+        "Heritage"
+      ],
+      "food_preferences": [
+        "No Preference"
+      ],
+      "adventure_preference": "Medium (Light treks, boating)",
+      "accommodation_preference": "Homestay",
+      "created_at": "2026-10-28T00:00:00.000Z",
+      "updated_at": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "demo-business-001",
+      "role": "BUSINESS",
+      "full_name": "Priya Deshmukh",
+      "avatar_url": null,
+      "onboarding_complete": true,
+      "age_range": "35-44",
+      "travel_group": null,
+      "budget_preference": null,
+      "preferred_destinations": [],
+      "travel_style": null,
+      "interests": [],
+      "food_preferences": [],
+      "adventure_preference": null,
+      "accommodation_preference": null,
+      "created_at": "2026-10-28T00:00:00.000Z",
+      "updated_at": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "demo-authority-001",
+      "role": "AUTHORITY",
+      "full_name": "Rajesh Patil",
+      "avatar_url": null,
+      "onboarding_complete": true,
+      "age_range": "45-54",
+      "travel_group": null,
+      "budget_preference": null,
+      "preferred_destinations": [],
+      "travel_style": null,
+      "interests": [],
+      "food_preferences": [],
+      "adventure_preference": null,
+      "accommodation_preference": null,
+      "created_at": "2026-10-28T00:00:00.000Z",
+      "updated_at": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "demo-admin-001",
+      "role": "ADMIN",
+      "full_name": "Antigravity Administrator",
+      "avatar_url": null,
+      "onboarding_complete": true,
+      "is_active": 1,
+      "age_range": "35-44",
+      "travel_group": null,
+      "budget_preference": null,
+      "preferred_destinations": [],
+      "travel_style": null,
+      "interests": [],
+      "food_preferences": [],
+      "adventure_preference": null,
+      "accommodation_preference": null,
+      "created_at": "2026-10-28T00:00:00.000Z",
+      "updated_at": "2026-10-28T00:00:00.000Z"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "dest-mahabaleshwar",
+      "name": "Mahabaleshwar",
+      "state": "Maharashtra",
+      "country": "India",
+      "latitude": 17.9237,
+      "longitude": 73.6586,
+      "description": "A serene hill station in India's forested Western Ghats range, south of Mumbai. Famous for strawberries and scenic valleys.",
+      "categories": [
+        "Mountains",
+        "Nature",
+        "Romantic",
+        "Weekend Getaway"
+      ],
+      "best_season": "October to June",
+      "average_budget_per_day": 3500,
+      "image_url": "/images/destinations/mahabaleshwar.jpg",
+      "is_published": 1
+    },
+    {
+      "id": "dest-goa",
+      "name": "Goa",
+      "state": "Goa",
+      "country": "India",
+      "latitude": 15.2993,
+      "longitude": 74.124,
+      "description": "A paradise on the western coast known for pristine beaches, vibrant nightlife, Portuguese heritage, and seafood.",
+      "categories": [
+        "Beaches",
+        "Nightlife",
+        "Relaxation",
+        "Heritage"
+      ],
+      "best_season": "November to February",
+      "average_budget_per_day": 5000,
+      "image_url": "/images/destinations/goa.jpg",
+      "is_published": 1
+    },
+    {
+      "id": "dest-jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "latitude": 26.9124,
+      "longitude": 75.7873,
+      "description": "The Pink City of Rajasthan, steeped in royal palaces, majestic forts, and rich craft traditions.",
+      "categories": [
+        "Heritage",
+        "Culture",
+        "Architecture",
+        "Shopping"
+      ],
+      "best_season": "October to March",
+      "average_budget_per_day": 4000,
+      "image_url": "/images/destinations/jaipur.jpg",
+      "is_published": 1
+    },
+    {
+      "id": "dest-manali",
+      "name": "Manali",
+      "state": "Himachal Pradesh",
+      "country": "India",
+      "latitude": 32.2396,
+      "longitude": 77.1887,
+      "description": "High-altitude Himalayan resort town known as a backpacking center and gateway for skiing in Solang Valley.",
+      "categories": [
+        "Mountains",
+        "Adventure",
+        "Snow",
+        "Trekking"
+      ],
+      "best_season": "October to June",
+      "average_budget_per_day": 4500,
+      "image_url": "/images/destinations/manali.jpg",
+      "is_published": 1
+    },
+    {
+      "id": "dest-kerala",
+      "name": "Kerala Backwaters",
+      "state": "Kerala",
+      "country": "India",
+      "latitude": 9.4981,
+      "longitude": 76.3388,
+      "description": "A tranquil network of interconnected canals, lagoons, and lakes parallel to the Arabian Sea coast.",
+      "categories": [
+        "Relaxation",
+        "Nature",
+        "Houseboat",
+        "Ayurveda"
+      ],
+      "best_season": "September to March",
+      "average_budget_per_day": 5500,
+      "image_url": "/images/destinations/kerala.jpg",
+      "is_published": 1
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attr-venna-lake",
+      "destination_id": "dest-mahabaleshwar",
+      "name": "Venna Lake",
+      "type": "lake",
+      "description": "Scenic man-made lake surrounded by trees, offering paddle boating, row boats, and horse riding along the bank.",
+      "latitude": 17.9254,
+      "longitude": 73.6635,
+      "entry_fee": 50,
+      "crowd_level": "HIGH",
+      "is_hidden_gem": 0,
+      "is_published": 1
+    },
+    {
+      "id": "attr-mapro-garden",
+      "destination_id": "dest-mahabaleshwar",
+      "name": "Mapro Garden",
+      "type": "garden",
+      "description": "Strawberry processing factory and botanical park renowned for fresh strawberry cream and wood-fired pizzas.",
+      "latitude": 17.9042,
+      "longitude": 73.7431,
+      "entry_fee": 0,
+      "crowd_level": "HIGH",
+      "is_hidden_gem": 0,
+      "is_published": 1
+    },
+    {
+      "id": "attr-arthurs-seat",
+      "destination_id": "dest-mahabaleshwar",
+      "name": "Arthur's Seat",
+      "type": "viewpoint",
+      "description": "Queen of all points offering breathtaking vistas of the deep Savitri gorge on one side and shallow valley on the other.",
+      "latitude": 17.9867,
+      "longitude": 73.6162,
+      "entry_fee": 20,
+      "crowd_level": "MEDIUM",
+      "is_hidden_gem": 0,
+      "is_published": 1
+    },
+    {
+      "id": "attr-baga-beach",
+      "destination_id": "dest-goa",
+      "name": "Baga Beach",
+      "type": "beach",
+      "description": "Famous beach with water sports, vibrant shacks, nightlife, and golden sand.",
+      "latitude": 15.5553,
+      "longitude": 73.7517,
+      "entry_fee": 0,
+      "crowd_level": "HIGH",
+      "is_hidden_gem": 0,
+      "is_published": 1
+    },
+    {
+      "id": "attr-amer-fort",
+      "destination_id": "dest-jaipur",
+      "name": "Amer Fort",
+      "type": "fort",
+      "description": "Grand 16th-century hilltop fort known for artistic Hindu style elements and mirror palace Sheesh Mahal.",
+      "latitude": 26.9855,
+      "longitude": 75.8513,
+      "entry_fee": 100,
+      "crowd_level": "HIGH",
+      "is_hidden_gem": 0,
+      "is_published": 1
+    }
+  ],
+  "businesses": [
+    {
+      "id": "biz-001",
+      "destination_id": "dest-mahabaleshwar",
+      "owner_id": "demo-business-001",
+      "name": "Brightland Resort & Spa",
+      "category": "hotel",
+      "description": "A luxury hillside resort with panoramic valley views, spa facilities, and award-winning dining. Top rated for couples and families.",
+      "latitude": 17.923,
+      "longitude": 73.654,
+      "price_range": "premium",
+      "price_per_unit": 8500,
+      "rating": 4.6,
+      "review_count": 1240,
+      "contact_phone": "+91 2168 260606",
+      "contact_email": "reservations@brightlandresort.com",
+      "address": "Mahabaleshwar-Panchgani Road, Mahabaleshwar",
+      "amenities": [
+        "WiFi",
+        "Pool",
+        "Spa",
+        "Restaurant",
+        "Parking",
+        "Room Service"
+      ],
+      "operating_hours": "24 Hours / 7 Days",
+      "status": "APPROVED",
+      "rejection_reason": null,
+      "submitted_at": "2026-09-01T00:00:00.000Z",
+      "reviewed_at": "2026-09-02T00:00:00.000Z",
+      "reviewed_by": "demo-admin-001",
+      "is_local": 0,
+      "is_verified": 1,
+      "eco_certified": 1
+    },
+    {
+      "id": "biz-002",
+      "destination_id": "dest-mahabaleshwar",
+      "owner_id": null,
+      "name": "Evershine Strawberry Resort",
+      "category": "hotel",
+      "description": "Resort amidst lush strawberry farms featuring an indoor play zone and multi-cuisine terrace.",
+      "latitude": 17.919,
+      "longitude": 73.651,
+      "price_range": "mid-range",
+      "price_per_unit": 4200,
+      "rating": 4.3,
+      "review_count": 890,
+      "contact_phone": "+91 2168 260303",
+      "contact_email": "info@evershine.com",
+      "address": "C.T.S No 182, Gautam Road, Mahabaleshwar",
+      "amenities": [
+        "WiFi",
+        "Pool",
+        "Garden",
+        "Restaurant"
+      ],
+      "operating_hours": "24 Hours / 7 Days",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "submitted_at": "2026-10-25T10:30:00.000Z",
+      "reviewed_at": null,
+      "reviewed_by": null,
+      "is_local": 1,
+      "is_verified": 0,
+      "eco_certified": 0
+    },
+    {
+      "id": "biz-003",
+      "destination_id": "dest-mahabaleshwar",
+      "owner_id": null,
+      "name": "Panchgani Hill Camp & Stargazing",
+      "category": "experience",
+      "description": "Eco camping and astronomy workshops atop the table land plateau.",
+      "latitude": 17.926,
+      "longitude": 73.801,
+      "price_range": "budget",
+      "price_per_unit": 1800,
+      "rating": 4.5,
+      "review_count": 140,
+      "contact_phone": "+91 9822 554433",
+      "contact_email": "explore@panchganicamp.com",
+      "address": "Near Table Land, Panchgani",
+      "amenities": [
+        "Tents",
+        "Bonfire",
+        "Stargazing Telescope",
+        "Guided Treks"
+      ],
+      "operating_hours": "4:00 PM - 11:00 AM",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "submitted_at": "2026-10-27T14:15:00.000Z",
+      "reviewed_at": null,
+      "reviewed_by": null,
+      "is_local": 1,
+      "is_verified": 0,
+      "eco_certified": 1
+    },
+    {
+      "id": "biz-004",
+      "destination_id": "dest-mahabaleshwar",
+      "owner_id": null,
+      "name": "Strawberry County Homestay",
+      "category": "homestay",
+      "description": "Charming authentic Marathi homestay run by organic strawberry farmers.",
+      "latitude": 17.921,
+      "longitude": 73.66,
+      "price_range": "budget",
+      "price_per_unit": 2200,
+      "rating": 4.8,
+      "review_count": 320,
+      "contact_phone": "+91 9422 112233",
+      "contact_email": "stay@strawberrycounty.com",
+      "address": "Old Mahabaleshwar Road",
+      "amenities": [
+        "Home Cooked Meals",
+        "WiFi",
+        "Farm Tour"
+      ],
+      "operating_hours": "7:00 AM - 10:00 PM",
+      "status": "REJECTED",
+      "rejection_reason": "Please upload valid fire safety compliance and local municipal registration.",
+      "submitted_at": "2026-10-20T09:00:00.000Z",
+      "reviewed_at": "2026-10-21T11:00:00.000Z",
+      "reviewed_by": "demo-admin-001",
+      "is_local": 1,
+      "is_verified": 0,
+      "eco_certified": 0
+    }
+  ],
+  "listings": [
+    {
+      "id": "list-001",
+      "business_id": "biz-001",
+      "title": "Luxury Valley View Executive Suite",
+      "category": "Accommodation",
+      "price": 8500,
+      "description": "King suite with private balcony overlooking the Venna valley, breakfast included, private jacuzzi.",
+      "status": "APPROVED",
+      "rejection_reason": null
+    },
+    {
+      "id": "list-002",
+      "business_id": "biz-001",
+      "title": "Signature Strawberry Spa & Rejuvenation Ritual",
+      "category": "Wellness",
+      "price": 3200,
+      "description": "90-minute therapeutic scrub and massage using locally harvested organic strawberries and aromatic oils.",
+      "status": "APPROVED",
+      "rejection_reason": null
+    },
+    {
+      "id": "list-003",
+      "business_id": "biz-001",
+      "title": "Sunrise Valley Helicopter Tour",
+      "category": "Adventure",
+      "price": 12000,
+      "description": "15-minute scenic helicopter flight across the Western Ghats mountain ridges and waterfalls.",
+      "status": "PENDING",
+      "rejection_reason": null
+    },
+    {
+      "id": "list-004",
+      "business_id": "biz-001",
+      "title": "Sunset Wine & Cheese Lawn Experience",
+      "category": "Dining",
+      "price": 2400,
+      "description": "Exclusive evening tasting of artisanal cheeses paired with local fruit wines beside the cliff edge.",
+      "status": "DRAFT",
+      "rejection_reason": null
+    }
+  ],
+  "business_inquiries": [
+    {
+      "id": "inq-001",
+      "business_id": "biz-001",
+      "customer_name": "Rohan Varma",
+      "customer_email": "rohan.varma@gmail.com",
+      "inquiry_date": "2026-11-05",
+      "guests": 2,
+      "status": "CONFIRMED",
+      "notes": "Honeymoon stay request with strawberry wine and late check-out."
+    },
+    {
+      "id": "inq-002",
+      "business_id": "biz-001",
+      "customer_name": "Meera Nair",
+      "customer_email": "meera.nair@yahoo.com",
+      "inquiry_date": "2026-11-12",
+      "guests": 4,
+      "status": "PENDING",
+      "notes": "Family weekend vacation, 2 adults and 2 children with extra cot."
+    },
+    {
+      "id": "inq-003",
+      "business_id": "biz-001",
+      "customer_name": "Aditya Roy",
+      "customer_email": "aditya@roycorp.in",
+      "inquiry_date": "2026-11-20",
+      "guests": 8,
+      "status": "PENDING",
+      "notes": "Corporate leadership retreat with private meeting lounge reservation."
+    },
+    {
+      "id": "inq-004",
+      "business_id": "biz-001",
+      "customer_name": "Siddharth Joshi",
+      "customer_email": "siddharth@outlook.com",
+      "inquiry_date": "2026-10-18",
+      "guests": 2,
+      "status": "COMPLETED",
+      "notes": "Anniversary celebration. Stay completed with 5-star feedback."
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log-001",
+      "admin_id": "demo-admin-001",
+      "admin_name": "Antigravity Administrator",
+      "action": "APPROVE_BUSINESS",
+      "target_entity": "businesses",
+      "target_id": "biz-001",
+      "details": "Approved Brightland Resort & Spa after safety verification",
+      "created_at": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "id": "log-002",
+      "admin_id": "demo-admin-001",
+      "admin_name": "Antigravity Administrator",
+      "action": "REJECT_BUSINESS",
+      "target_entity": "businesses",
+      "target_id": "biz-004",
+      "details": "Rejected Strawberry County Homestay: Missing fire safety compliance",
+      "created_at": "2026-10-21T11:00:00.000Z"
+    },
+    {
+      "id": "log-003",
+      "admin_id": "demo-authority-001",
+      "admin_name": "Rajesh Patil",
+      "action": "UPDATE_KPI_OVERVIEW",
+      "target_entity": "tourism_summaries",
+      "target_id": "current-overview",
+      "details": "Synced monthly footfall stats (153,131 visitors)",
+      "created_at": "2026-10-28T09:00:00.000Z"
+    }
+  ],
+  "tourism_summary": {
+    "totalVisitorsThisMonth": 153131,
+    "avgDailyVisitors": 5104,
+    "avgSpend": 2309,
+    "avgOccupancy": 61,
+    "totalRevenue": 33452635,
+    "avgSustainability": 80.4
+  },
+  "business_analytics": [
+    {
+      "id": "ba-29",
+      "business_id": "biz-001",
+      "date": "2026-09-29",
+      "bookings": 9,
+      "revenue": 76020,
+      "occupancy_pct": 56,
+      "visitor_count": 22,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-28",
+      "business_id": "biz-001",
+      "date": "2026-09-30",
+      "bookings": 7,
+      "revenue": 60442,
+      "occupancy_pct": 54,
+      "visitor_count": 18,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-27",
+      "business_id": "biz-001",
+      "date": "2026-10-01",
+      "bookings": 9,
+      "revenue": 77364,
+      "occupancy_pct": 56,
+      "visitor_count": 23,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-26",
+      "business_id": "biz-001",
+      "date": "2026-10-02",
+      "bookings": 7,
+      "revenue": 61107,
+      "occupancy_pct": 54,
+      "visitor_count": 18,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-25",
+      "business_id": "biz-001",
+      "date": "2026-10-03",
+      "bookings": 20,
+      "revenue": 172895,
+      "occupancy_pct": 93,
+      "visitor_count": 51,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-24",
+      "business_id": "biz-001",
+      "date": "2026-10-04",
+      "bookings": 20,
+      "revenue": 170497,
+      "occupancy_pct": 93,
+      "visitor_count": 50,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-23",
+      "business_id": "biz-001",
+      "date": "2026-10-05",
+      "bookings": 8,
+      "revenue": 71216,
+      "occupancy_pct": 55,
+      "visitor_count": 21,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-22",
+      "business_id": "biz-001",
+      "date": "2026-10-06",
+      "bookings": 8,
+      "revenue": 68508,
+      "occupancy_pct": 55,
+      "visitor_count": 20,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-21",
+      "business_id": "biz-001",
+      "date": "2026-10-07",
+      "bookings": 9,
+      "revenue": 75581,
+      "occupancy_pct": 56,
+      "visitor_count": 22,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-20",
+      "business_id": "biz-001",
+      "date": "2026-10-08",
+      "bookings": 9,
+      "revenue": 76365,
+      "occupancy_pct": 56,
+      "visitor_count": 22,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-19",
+      "business_id": "biz-001",
+      "date": "2026-10-09",
+      "bookings": 8,
+      "revenue": 69891,
+      "occupancy_pct": 55,
+      "visitor_count": 21,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-18",
+      "business_id": "biz-001",
+      "date": "2026-10-10",
+      "bookings": 20,
+      "revenue": 172939,
+      "occupancy_pct": 93,
+      "visitor_count": 51,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-17",
+      "business_id": "biz-001",
+      "date": "2026-10-11",
+      "bookings": 20,
+      "revenue": 167456,
+      "occupancy_pct": 93,
+      "visitor_count": 49,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-16",
+      "business_id": "biz-001",
+      "date": "2026-10-12",
+      "bookings": 9,
+      "revenue": 77152,
+      "occupancy_pct": 56,
+      "visitor_count": 23,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-15",
+      "business_id": "biz-001",
+      "date": "2026-10-13",
+      "bookings": 7,
+      "revenue": 60185,
+      "occupancy_pct": 54,
+      "visitor_count": 18,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-14",
+      "business_id": "biz-001",
+      "date": "2026-10-14",
+      "bookings": 9,
+      "revenue": 76441,
+      "occupancy_pct": 56,
+      "visitor_count": 22,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-13",
+      "business_id": "biz-001",
+      "date": "2026-10-15",
+      "bookings": 9,
+      "revenue": 73135,
+      "occupancy_pct": 56,
+      "visitor_count": 22,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-12",
+      "business_id": "biz-001",
+      "date": "2026-10-16",
+      "bookings": 7,
+      "revenue": 63250,
+      "occupancy_pct": 54,
+      "visitor_count": 19,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-11",
+      "business_id": "biz-001",
+      "date": "2026-10-17",
+      "bookings": 16,
+      "revenue": 138709,
+      "occupancy_pct": 91,
+      "visitor_count": 41,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-10",
+      "business_id": "biz-001",
+      "date": "2026-10-18",
+      "bookings": 18,
+      "revenue": 149749,
+      "occupancy_pct": 92,
+      "visitor_count": 44,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-9",
+      "business_id": "biz-001",
+      "date": "2026-10-19",
+      "bookings": 7,
+      "revenue": 58146,
+      "occupancy_pct": 54,
+      "visitor_count": 17,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-8",
+      "business_id": "biz-001",
+      "date": "2026-10-20",
+      "bookings": 8,
+      "revenue": 64413,
+      "occupancy_pct": 54,
+      "visitor_count": 19,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-7",
+      "business_id": "biz-001",
+      "date": "2026-10-21",
+      "bookings": 8,
+      "revenue": 71406,
+      "occupancy_pct": 56,
+      "visitor_count": 21,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-6",
+      "business_id": "biz-001",
+      "date": "2026-10-22",
+      "bookings": 7,
+      "revenue": 60002,
+      "occupancy_pct": 54,
+      "visitor_count": 18,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-5",
+      "business_id": "biz-001",
+      "date": "2026-10-23",
+      "bookings": 9,
+      "revenue": 75183,
+      "occupancy_pct": 56,
+      "visitor_count": 22,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-4",
+      "business_id": "biz-001",
+      "date": "2026-10-24",
+      "bookings": 17,
+      "revenue": 143571,
+      "occupancy_pct": 91,
+      "visitor_count": 42,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-3",
+      "business_id": "biz-001",
+      "date": "2026-10-25",
+      "bookings": 18,
+      "revenue": 154842,
+      "occupancy_pct": 92,
+      "visitor_count": 46,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-2",
+      "business_id": "biz-001",
+      "date": "2026-10-26",
+      "bookings": 7,
+      "revenue": 60133,
+      "occupancy_pct": 54,
+      "visitor_count": 18,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-1",
+      "business_id": "biz-001",
+      "date": "2026-10-27",
+      "bookings": 8,
+      "revenue": 64528,
+      "occupancy_pct": 54,
+      "visitor_count": 19,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    },
+    {
+      "id": "ba-0",
+      "business_id": "biz-001",
+      "date": "2026-10-28",
+      "bookings": 7,
+      "revenue": 61446,
+      "occupancy_pct": 54,
+      "visitor_count": 18,
+      "customer_segments": [
+        {
+          "segment": "Families",
+          "percentage": 42
+        },
+        {
+          "segment": "Couples",
+          "percentage": 28
+        },
+        {
+          "segment": "Solo Travelers",
+          "percentage": 12
+        },
+        {
+          "segment": "Groups",
+          "percentage": 10
+        },
+        {
+          "segment": "Business",
+          "percentage": 8
+        }
+      ]
+    }
+  ]
+}

@@ -145,7 +145,7 @@ export default function LoginPage() {
                 </div>
               </div>
 
-              <div className="mt-4 grid grid-cols-3 gap-2">
+              <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2">
                 <Button
                   variant="outline"
                   size="sm"
@@ -172,6 +172,15 @@ export default function LoginPage() {
                   disabled={loading}
                 >
                   🏛️ Authority
+                </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="text-xs border-primary/40 text-primary hover:bg-primary/10"
+                  onClick={() => handleDemoLogin('admin@demo.com')}
+                  disabled={loading}
+                >
+                  🛡️ Admin
                 </Button>
               </div>
             </div>

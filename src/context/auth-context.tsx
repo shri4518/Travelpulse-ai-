@@ -77,6 +77,24 @@ const DEMO_USERS: Record<string, UserProfile> = {
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString(),
   },
+  'admin@demo.com': {
+    id: 'demo-admin-001',
+    role: 'ADMIN',
+    full_name: 'Antigravity Administrator',
+    avatar_url: null,
+    onboarding_complete: true,
+    age_range: '35-44',
+    travel_group: null,
+    budget_preference: null,
+    preferred_destinations: [],
+    travel_style: null,
+    interests: [],
+    food_preferences: [],
+    adventure_preference: null,
+    accommodation_preference: null,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString(),
+  },
 };
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
@@ -185,7 +203,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       fetch('/api/auth/profile', {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ id: prev.id, ...data }),
       }).catch(() => {});
       return updated;
     });

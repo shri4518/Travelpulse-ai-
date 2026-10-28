@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -17,11 +17,29 @@ export default function BusinessesPage() {
   const { currentDestination } = useDestination();
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('all');
+  const [businesses, setBusinesses] = useState<any[]>(seedBusinesses);
 
-  const filteredBusinesses = seedBusinesses.filter(b => {
+  useEffect(() => {
+    async function loadDbBusinesses() {
+      try {
+        const res = await fetch('/api/admin/businesses?status=APPROVED');
+        if (res.ok) {
+          const json = await res.json();
+          if (json.businesses && json.businesses.length > 0) {
+            setBusinesses(json.businesses);
+          }
+        }
+      } catch (err) {
+        console.error('Failed to load approved businesses from database:', err);
+      }
+    }
+    loadDbBusinesses();
+  }, []);
+
+  const filteredBusinesses = businesses.filter(b => {
     const matchesDest = !currentDestination || b.destination_id === currentDestination.id;
     const matchesSearch = b.name.toLowerCase().includes(search.toLowerCase()) || 
-                          b.description.toLowerCase().includes(search.toLowerCase());
+                          (b.description && b.description.toLowerCase().includes(search.toLowerCase()));
     const matchesCat = category === 'all' || b.category === category;
     return matchesDest && matchesSearch && matchesCat;
   });

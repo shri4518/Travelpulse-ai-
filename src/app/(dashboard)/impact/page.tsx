@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -13,6 +14,23 @@ export default function ImpactPage() {
   const { user } = useAuth();
   const { currentDestination } = useDestination();
   const activeDest = currentDestination || seedDestinations[0];
+
+  const [tourismData, setTourismData] = useState<any>(null);
+
+  useEffect(() => {
+    async function loadData() {
+      try {
+        const res = await fetch('/api/analytics/tourism');
+        if (res.ok) {
+          const json = await res.json();
+          setTourismData(json.data);
+        }
+      } catch (err) {
+        console.error('Failed to load tourism data:', err);
+      }
+    }
+    loadData();
+  }, []);
 
   return (
     <div className="space-y-6 pb-20 max-w-7xl mx-auto">
@@ -73,7 +91,9 @@ export default function ImpactPage() {
                 <h3 className="font-bold text-[#1F3D2B] font-sans">Eco Score</h3>
               </div>
               <div className="flex items-baseline gap-2 mb-2">
-                <p className="text-4xl font-bold font-serif text-[#1F3D2B]">85</p>
+                <p className="text-4xl font-bold font-serif text-[#1F3D2B]">
+                  {tourismData ? tourismData.avgSustainability : '80.4'}
+                </p>
                 <p className="text-sm font-bold text-[#6B6B6B] font-sans pb-1">/ 100</p>
               </div>
               <p className="text-sm text-[#6B6B6B] font-sans">Top 15% of sustainable travelers</p>
