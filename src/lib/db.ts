@@ -17,8 +17,15 @@ export function getDb() {
     return dbInstance;
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const { DatabaseSync } = require('node:sqlite');
+  let DatabaseSync: any;
+  if (typeof (process as any).getBuiltinModule === 'function') {
+    DatabaseSync = (process as any).getBuiltinModule('node:sqlite')?.DatabaseSync;
+  }
+  if (!DatabaseSync) {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const req = eval('require');
+    DatabaseSync = req('node:sqlite').DatabaseSync;
+  }
 
   const rawPath = process.env.DATABASE_FILE || 'travelpulse.db';
   const resolvedPath = path.isAbsolute(rawPath)
