@@ -1,0 +1,1892 @@
+[
+  {
+    "id": "ta-29",
+    "date": "2026-09-29",
+    "total_visitors": 4445,
+    "avg_spend": 2264,
+    "hotel_occupancy_pct": 53,
+    "local_biz_revenue": 973729,
+    "sustainability_index": 86.3,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 3006
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3350
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2758
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2174
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1626
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 3006
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4445
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 2000
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1185
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1037
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 296
+      }
+    ]
+  },
+  {
+    "id": "ta-28",
+    "date": "2026-09-30",
+    "total_visitors": 4345,
+    "avg_spend": 2238,
+    "hotel_occupancy_pct": 52,
+    "local_biz_revenue": 951765,
+    "sustainability_index": 82.8,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2938
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3288
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2714
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2144
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1607
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2938
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4345
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1955
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1159
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1014
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 290
+      }
+    ]
+  },
+  {
+    "id": "ta-27",
+    "date": "2026-10-01",
+    "total_visitors": 3742,
+    "avg_spend": 2080,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 819717,
+    "sustainability_index": 72.3,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2530
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2921
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2448
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1963
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1494
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2530
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3742
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1684
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 998
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 873
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 249
+      }
+    ]
+  },
+  {
+    "id": "ta-26",
+    "date": "2026-10-02",
+    "total_visitors": 3643,
+    "avg_spend": 2054,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 798098,
+    "sustainability_index": 75.1,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2464
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2861
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2404
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1933
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1475
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2464
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3643
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1640
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 972
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 850
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 243
+      }
+    ]
+  },
+  {
+    "id": "ta-25",
+    "date": "2026-10-03",
+    "total_visitors": 7680,
+    "avg_spend": 2665,
+    "hotel_occupancy_pct": 87,
+    "local_biz_revenue": 1671507,
+    "sustainability_index": 86.9,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2566
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2953
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2471
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1978
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1504
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2566
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3795
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1708
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1012
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 885
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 253
+      }
+    ]
+  },
+  {
+    "id": "ta-24",
+    "date": "2026-10-04",
+    "total_visitors": 8952,
+    "avg_spend": 2874,
+    "hotel_occupancy_pct": 89,
+    "local_biz_revenue": 1948387,
+    "sustainability_index": 73,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2991
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3336
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2749
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2167
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1622
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2991
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4423
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1991
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1180
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1032
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 295
+      }
+    ]
+  },
+  {
+    "id": "ta-23",
+    "date": "2026-10-05",
+    "total_visitors": 3733,
+    "avg_spend": 2078,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 817627,
+    "sustainability_index": 82.1,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2524
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2915
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2444
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1960
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1492
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2524
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3733
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1680
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 995
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 871
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 249
+      }
+    ]
+  },
+  {
+    "id": "ta-22",
+    "date": "2026-10-06",
+    "total_visitors": 3711,
+    "avg_spend": 2072,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 812877,
+    "sustainability_index": 73.8,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2509
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2902
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2434
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1953
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1488
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2509
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3711
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1670
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 990
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 866
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 247
+      }
+    ]
+  },
+  {
+    "id": "ta-21",
+    "date": "2026-10-07",
+    "total_visitors": 3573,
+    "avg_spend": 2036,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 782737,
+    "sustainability_index": 80.7,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2416
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2818
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2373
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1912
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1462
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2416
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3573
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1608
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 953
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 834
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 238
+      }
+    ]
+  },
+  {
+    "id": "ta-20",
+    "date": "2026-10-08",
+    "total_visitors": 4441,
+    "avg_spend": 2263,
+    "hotel_occupancy_pct": 53,
+    "local_biz_revenue": 972682,
+    "sustainability_index": 73.3,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 3003
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3347
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2756
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2172
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1625
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 3003
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4441
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1998
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1184
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1036
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 296
+      }
+    ]
+  },
+  {
+    "id": "ta-19",
+    "date": "2026-10-09",
+    "total_visitors": 3640,
+    "avg_spend": 2053,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 797273,
+    "sustainability_index": 84.6,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2461
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2858
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2403
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1932
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1475
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2461
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3640
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1638
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 971
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 849
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 243
+      }
+    ]
+  },
+  {
+    "id": "ta-18",
+    "date": "2026-10-10",
+    "total_visitors": 7729,
+    "avg_spend": 2673,
+    "hotel_occupancy_pct": 87,
+    "local_biz_revenue": 1682091,
+    "sustainability_index": 78.7,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2582
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2968
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2482
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1986
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1508
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2582
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3819
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1718
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1018
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 891
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 255
+      }
+    ]
+  },
+  {
+    "id": "ta-17",
+    "date": "2026-10-11",
+    "total_visitors": 7389,
+    "avg_spend": 2617,
+    "hotel_occupancy_pct": 87,
+    "local_biz_revenue": 1608202,
+    "sustainability_index": 86.3,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2469
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2865
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2408
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1935
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1477
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2469
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3651
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1643
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 974
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 852
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 243
+      }
+    ]
+  },
+  {
+    "id": "ta-16",
+    "date": "2026-10-12",
+    "total_visitors": 3685,
+    "avg_spend": 2065,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 807130,
+    "sustainability_index": 73.7,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2492
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2886
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2422
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1945
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1483
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2492
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3685
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1658
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 983
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 860
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 246
+      }
+    ]
+  },
+  {
+    "id": "ta-15",
+    "date": "2026-10-13",
+    "total_visitors": 4131,
+    "avg_spend": 2182,
+    "hotel_occupancy_pct": 52,
+    "local_biz_revenue": 904909,
+    "sustainability_index": 77.6,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2793
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3158
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2620
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2079
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1567
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2793
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4131
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1859
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1102
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 964
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 275
+      }
+    ]
+  },
+  {
+    "id": "ta-14",
+    "date": "2026-10-14",
+    "total_visitors": 3742,
+    "avg_spend": 2080,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 819647,
+    "sustainability_index": 79.7,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2530
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2921
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2448
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1963
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1494
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2530
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3742
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1684
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 998
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 873
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 249
+      }
+    ]
+  },
+  {
+    "id": "ta-13",
+    "date": "2026-10-15",
+    "total_visitors": 4744,
+    "avg_spend": 2342,
+    "hotel_occupancy_pct": 53,
+    "local_biz_revenue": 1039119,
+    "sustainability_index": 82.3,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 3208
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3531
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2890
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2263
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1682
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 3208
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4744
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 2135
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1265
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1107
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 316
+      }
+    ]
+  },
+  {
+    "id": "ta-12",
+    "date": "2026-10-16",
+    "total_visitors": 3676,
+    "avg_spend": 2063,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 805301,
+    "sustainability_index": 83.7,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2486
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2881
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2419
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1943
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1482
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2486
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3676
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1654
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 980
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 858
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 245
+      }
+    ]
+  },
+  {
+    "id": "ta-11",
+    "date": "2026-10-17",
+    "total_visitors": 8896,
+    "avg_spend": 2865,
+    "hotel_occupancy_pct": 88,
+    "local_biz_revenue": 1936149,
+    "sustainability_index": 73.2,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2972
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3319
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2736
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2159
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1617
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2972
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4396
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1978
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1172
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1026
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 293
+      }
+    ]
+  },
+  {
+    "id": "ta-10",
+    "date": "2026-10-18",
+    "total_visitors": 7443,
+    "avg_spend": 2626,
+    "hotel_occupancy_pct": 87,
+    "local_biz_revenue": 1619957,
+    "sustainability_index": 86,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2487
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2882
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2419
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1943
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1482
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2487
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3678
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1655
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 981
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 858
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 245
+      }
+    ]
+  },
+  {
+    "id": "ta-9",
+    "date": "2026-10-19",
+    "total_visitors": 4271,
+    "avg_spend": 2219,
+    "hotel_occupancy_pct": 52,
+    "local_biz_revenue": 935478,
+    "sustainability_index": 84.8,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2888
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3243
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2681
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2121
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1593
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2888
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4271
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1922
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1139
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 996
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 285
+      }
+    ]
+  },
+  {
+    "id": "ta-8",
+    "date": "2026-10-20",
+    "total_visitors": 4760,
+    "avg_spend": 2347,
+    "hotel_occupancy_pct": 53,
+    "local_biz_revenue": 1042629,
+    "sustainability_index": 79.7,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 3219
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3541
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2897
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2268
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1685
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 3219
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4760
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 2142
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1269
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1111
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 317
+      }
+    ]
+  },
+  {
+    "id": "ta-7",
+    "date": "2026-10-21",
+    "total_visitors": 3697,
+    "avg_spend": 2068,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 809720,
+    "sustainability_index": 86,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2500
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2893
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2428
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1949
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1485
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2500
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3697
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1663
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 986
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 863
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 246
+      }
+    ]
+  },
+  {
+    "id": "ta-6",
+    "date": "2026-10-22",
+    "total_visitors": 4385,
+    "avg_spend": 2248,
+    "hotel_occupancy_pct": 52,
+    "local_biz_revenue": 960427,
+    "sustainability_index": 85.5,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2965
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3312
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2732
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2155
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1615
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2965
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4385
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1973
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1169
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1023
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 292
+      }
+    ]
+  },
+  {
+    "id": "ta-5",
+    "date": "2026-10-23",
+    "total_visitors": 4452,
+    "avg_spend": 2266,
+    "hotel_occupancy_pct": 53,
+    "local_biz_revenue": 975108,
+    "sustainability_index": 74.8,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 3010
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3353
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2761
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2175
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1627
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 3010
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4452
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 2003
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1187
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1039
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 297
+      }
+    ]
+  },
+  {
+    "id": "ta-4",
+    "date": "2026-10-24",
+    "total_visitors": 8304,
+    "avg_spend": 2768,
+    "hotel_occupancy_pct": 88,
+    "local_biz_revenue": 1807320,
+    "sustainability_index": 80.1,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2774
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3141
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2607
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2071
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1562
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2774
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4103
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1846
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1094
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 957
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 274
+      }
+    ]
+  },
+  {
+    "id": "ta-3",
+    "date": "2026-10-25",
+    "total_visitors": 7786,
+    "avg_spend": 2682,
+    "hotel_occupancy_pct": 87,
+    "local_biz_revenue": 1694580,
+    "sustainability_index": 75,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2601
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2985
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2494
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1994
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1514
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2601
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3847
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1731
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1026
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 898
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 256
+      }
+    ]
+  },
+  {
+    "id": "ta-2",
+    "date": "2026-10-26",
+    "total_visitors": 4097,
+    "avg_spend": 2173,
+    "hotel_occupancy_pct": 52,
+    "local_biz_revenue": 897425,
+    "sustainability_index": 86.8,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2770
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3137
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2604
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2069
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1561
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2770
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4097
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1844
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1093
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 956
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 273
+      }
+    ]
+  },
+  {
+    "id": "ta-1",
+    "date": "2026-10-27",
+    "total_visitors": 3587,
+    "avg_spend": 2040,
+    "hotel_occupancy_pct": 51,
+    "local_biz_revenue": 785805,
+    "sustainability_index": 82.2,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 2426
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 2827
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2379
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 1916
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1465
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 2426
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 3587
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 1614
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 957
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 837
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 239
+      }
+    ]
+  },
+  {
+    "id": "ta-0",
+    "date": "2026-10-28",
+    "total_visitors": 4452,
+    "avg_spend": 2266,
+    "hotel_occupancy_pct": 53,
+    "local_biz_revenue": 975239,
+    "sustainability_index": 85.8,
+    "top_attractions": [
+      {
+        "name": "Venna Lake",
+        "visitors": 3011
+      },
+      {
+        "name": "Mapro Garden",
+        "visitors": 3354
+      },
+      {
+        "name": "Table Land",
+        "visitors": 2761
+      },
+      {
+        "name": "Bombay Point",
+        "visitors": 2176
+      },
+      {
+        "name": "Arthur's Seat",
+        "visitors": 1627
+      }
+    ],
+    "crowd_distribution": [
+      {
+        "area": "Venna Lake Area",
+        "level": "HIGH",
+        "count": 3011
+      },
+      {
+        "area": "Market Area",
+        "level": "HIGH",
+        "count": 4452
+      },
+      {
+        "area": "Wilson Point",
+        "level": "MEDIUM",
+        "count": 2003
+      },
+      {
+        "area": "Old Mahabaleshwar",
+        "level": "MEDIUM",
+        "count": 1187
+      },
+      {
+        "area": "Lingmala",
+        "level": "LOW",
+        "count": 1039
+      },
+      {
+        "area": "Sidney Point",
+        "level": "LOW",
+        "count": 297
+      }
+    ]
+  }
+]

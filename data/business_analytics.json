@@ -1,0 +1,932 @@
+[
+  {
+    "id": "ba-29",
+    "business_id": "biz-001",
+    "date": "2026-09-29",
+    "bookings": 9,
+    "revenue": 76020,
+    "occupancy_pct": 56,
+    "visitor_count": 22,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-28",
+    "business_id": "biz-001",
+    "date": "2026-09-30",
+    "bookings": 7,
+    "revenue": 60442,
+    "occupancy_pct": 54,
+    "visitor_count": 18,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-27",
+    "business_id": "biz-001",
+    "date": "2026-10-01",
+    "bookings": 9,
+    "revenue": 77364,
+    "occupancy_pct": 56,
+    "visitor_count": 23,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-26",
+    "business_id": "biz-001",
+    "date": "2026-10-02",
+    "bookings": 7,
+    "revenue": 61107,
+    "occupancy_pct": 54,
+    "visitor_count": 18,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-25",
+    "business_id": "biz-001",
+    "date": "2026-10-03",
+    "bookings": 20,
+    "revenue": 172895,
+    "occupancy_pct": 93,
+    "visitor_count": 51,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-24",
+    "business_id": "biz-001",
+    "date": "2026-10-04",
+    "bookings": 20,
+    "revenue": 170497,
+    "occupancy_pct": 93,
+    "visitor_count": 50,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-23",
+    "business_id": "biz-001",
+    "date": "2026-10-05",
+    "bookings": 8,
+    "revenue": 71216,
+    "occupancy_pct": 55,
+    "visitor_count": 21,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-22",
+    "business_id": "biz-001",
+    "date": "2026-10-06",
+    "bookings": 8,
+    "revenue": 68508,
+    "occupancy_pct": 55,
+    "visitor_count": 20,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-21",
+    "business_id": "biz-001",
+    "date": "2026-10-07",
+    "bookings": 9,
+    "revenue": 75581,
+    "occupancy_pct": 56,
+    "visitor_count": 22,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-20",
+    "business_id": "biz-001",
+    "date": "2026-10-08",
+    "bookings": 9,
+    "revenue": 76365,
+    "occupancy_pct": 56,
+    "visitor_count": 22,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-19",
+    "business_id": "biz-001",
+    "date": "2026-10-09",
+    "bookings": 8,
+    "revenue": 69891,
+    "occupancy_pct": 55,
+    "visitor_count": 21,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-18",
+    "business_id": "biz-001",
+    "date": "2026-10-10",
+    "bookings": 20,
+    "revenue": 172939,
+    "occupancy_pct": 93,
+    "visitor_count": 51,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-17",
+    "business_id": "biz-001",
+    "date": "2026-10-11",
+    "bookings": 20,
+    "revenue": 167456,
+    "occupancy_pct": 93,
+    "visitor_count": 49,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-16",
+    "business_id": "biz-001",
+    "date": "2026-10-12",
+    "bookings": 9,
+    "revenue": 77152,
+    "occupancy_pct": 56,
+    "visitor_count": 23,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-15",
+    "business_id": "biz-001",
+    "date": "2026-10-13",
+    "bookings": 7,
+    "revenue": 60185,
+    "occupancy_pct": 54,
+    "visitor_count": 18,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-14",
+    "business_id": "biz-001",
+    "date": "2026-10-14",
+    "bookings": 9,
+    "revenue": 76441,
+    "occupancy_pct": 56,
+    "visitor_count": 22,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-13",
+    "business_id": "biz-001",
+    "date": "2026-10-15",
+    "bookings": 9,
+    "revenue": 73135,
+    "occupancy_pct": 56,
+    "visitor_count": 22,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-12",
+    "business_id": "biz-001",
+    "date": "2026-10-16",
+    "bookings": 7,
+    "revenue": 63250,
+    "occupancy_pct": 54,
+    "visitor_count": 19,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-11",
+    "business_id": "biz-001",
+    "date": "2026-10-17",
+    "bookings": 16,
+    "revenue": 138709,
+    "occupancy_pct": 91,
+    "visitor_count": 41,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-10",
+    "business_id": "biz-001",
+    "date": "2026-10-18",
+    "bookings": 18,
+    "revenue": 149749,
+    "occupancy_pct": 92,
+    "visitor_count": 44,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-9",
+    "business_id": "biz-001",
+    "date": "2026-10-19",
+    "bookings": 7,
+    "revenue": 58146,
+    "occupancy_pct": 54,
+    "visitor_count": 17,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-8",
+    "business_id": "biz-001",
+    "date": "2026-10-20",
+    "bookings": 8,
+    "revenue": 64413,
+    "occupancy_pct": 54,
+    "visitor_count": 19,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-7",
+    "business_id": "biz-001",
+    "date": "2026-10-21",
+    "bookings": 8,
+    "revenue": 71406,
+    "occupancy_pct": 56,
+    "visitor_count": 21,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-6",
+    "business_id": "biz-001",
+    "date": "2026-10-22",
+    "bookings": 7,
+    "revenue": 60002,
+    "occupancy_pct": 54,
+    "visitor_count": 18,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-5",
+    "business_id": "biz-001",
+    "date": "2026-10-23",
+    "bookings": 9,
+    "revenue": 75183,
+    "occupancy_pct": 56,
+    "visitor_count": 22,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-4",
+    "business_id": "biz-001",
+    "date": "2026-10-24",
+    "bookings": 17,
+    "revenue": 143571,
+    "occupancy_pct": 91,
+    "visitor_count": 42,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-3",
+    "business_id": "biz-001",
+    "date": "2026-10-25",
+    "bookings": 18,
+    "revenue": 154842,
+    "occupancy_pct": 92,
+    "visitor_count": 46,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-2",
+    "business_id": "biz-001",
+    "date": "2026-10-26",
+    "bookings": 7,
+    "revenue": 60133,
+    "occupancy_pct": 54,
+    "visitor_count": 18,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-1",
+    "business_id": "biz-001",
+    "date": "2026-10-27",
+    "bookings": 8,
+    "revenue": 64528,
+    "occupancy_pct": 54,
+    "visitor_count": 19,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  },
+  {
+    "id": "ba-0",
+    "business_id": "biz-001",
+    "date": "2026-10-28",
+    "bookings": 7,
+    "revenue": 61446,
+    "occupancy_pct": 54,
+    "visitor_count": 18,
+    "customer_segments": [
+      {
+        "segment": "Families",
+        "percentage": 42
+      },
+      {
+        "segment": "Couples",
+        "percentage": 28
+      },
+      {
+        "segment": "Solo Travelers",
+        "percentage": 12
+      },
+      {
+        "segment": "Groups",
+        "percentage": 10
+      },
+      {
+        "segment": "Business",
+        "percentage": 8
+      }
+    ]
+  }
+]

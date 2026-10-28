@@ -1,0 +1,66 @@
+[
+  {
+    "id": "demo-tourist-001",
+    "role": "TOURIST",
+    "full_name": "Arjun Sharma",
+    "avatar_url": null,
+    "onboarding_complete": true,
+    "age_range": "25-34",
+    "travel_group": "Friends",
+    "budget_preference": "Mid-Range (₹5,000-15,000)",
+    "preferred_destinations": [
+      "Mahabaleshwar",
+      "Lonavala"
+    ],
+    "travel_style": "Adventure",
+    "interests": [
+      "Nature",
+      "Adventure",
+      "Food",
+      "Heritage"
+    ],
+    "food_preferences": [
+      "No Preference"
+    ],
+    "adventure_preference": "Medium (Light treks, boating)",
+    "accommodation_preference": "Homestay",
+    "created_at": "2026-10-28T00:00:00.000Z",
+    "updated_at": "2026-10-28T00:00:00.000Z"
+  },
+  {
+    "id": "demo-business-001",
+    "role": "BUSINESS",
+    "full_name": "Priya Deshmukh",
+    "avatar_url": null,
+    "onboarding_complete": true,
+    "age_range": "35-44",
+    "travel_group": null,
+    "budget_preference": null,
+    "preferred_destinations": [],
+    "travel_style": null,
+    "interests": [],
+    "food_preferences": [],
+    "adventure_preference": null,
+    "accommodation_preference": null,
+    "created_at": "2026-10-28T00:00:00.000Z",
+    "updated_at": "2026-10-28T00:00:00.000Z"
+  },
+  {
+    "id": "demo-authority-001",
+    "role": "AUTHORITY",
+    "full_name": "Rajesh Patil",
+    "avatar_url": null,
+    "onboarding_complete": true,
+    "age_range": "45-54",
+    "travel_group": null,
+    "budget_preference": null,
+    "preferred_destinations": [],
+    "travel_style": null,
+    "interests": [],
+    "food_preferences": [],
+    "adventure_preference": null,
+    "accommodation_preference": null,
+    "created_at": "2026-10-28T00:00:00.000Z",
+    "updated_at": "2026-10-28T00:00:00.000Z"
+  }
+]

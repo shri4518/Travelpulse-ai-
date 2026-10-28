@@ -10,20 +10,42 @@ import { EMERGENCY_CONTACTS } from '@/lib/constants';
 import { seedSafetyFacilities } from '@/lib/data/seed-safety';
 import { useDestination } from '@/context/destination-context';
 import { seedDestinations } from '@/lib/data/seed-destinations';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function SafetyPage() {
   const { currentDestination } = useDestination();
   const activeDest = currentDestination;
   const [searchQuery, setSearchQuery] = useState('');
+  const [facilities, setFacilities] = useState<any[]>(seedSafetyFacilities);
 
-  const facilities = activeDest 
-    ? seedSafetyFacilities.filter(s => 
+  useEffect(() => {
+    async function loadDbFacilities() {
+      try {
+        const url = activeDest ? `/api/safety?destination_id=${activeDest.id}` : '/api/safety';
+        const res = await fetch(url);
+        if (res.ok) {
+          const json = await res.json();
+          if (json.facilities && json.facilities.length > 0) {
+            setFacilities(json.facilities);
+          }
+        }
+      } catch (err) {
+        console.error('Failed to load safety facilities from DB:', err);
+      }
+    }
+    loadDbFacilities();
+  }, [activeDest]);
+
+  const filteredFacilities = activeDest 
+    ? facilities.filter(s => 
         s.destination_id === activeDest.id &&
         (s.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
          s.type.includes(searchQuery.toLowerCase()))
       )
-    : [];
+    : facilities.filter(s =>
+        s.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+        s.type.includes(searchQuery.toLowerCase())
+      );
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto">
@@ -36,6 +58,14 @@ export default function SafetyPage() {
             <h1 className="text-3xl font-bold font-serif text-[#1F3D2B]">Tourist Safety & Emergency</h1>
             <p className="text-[#6B6B6B] font-sans mt-1">Quick access to emergency services and safety facilities</p>
           </div>
+        </div>
+
+        {/* Verification and Safety Disclaimer Banner */}
+        <div className="bg-[#FAF7F2] border border-[#E27D4F]/30 rounded-xl p-4 mt-3 flex items-start gap-3">
+          <AlertTriangle className="w-5 h-5 text-[#E27D4F] shrink-0 mt-0.5" />
+          <p className="text-xs text-[#6B6B6B] font-sans leading-relaxed">
+            <strong className="text-[#1F3D2B] font-semibold">Demonstration Data Notice:</strong> The safety facilities, emergency numbers, and contact details shown in this portal are synthetic demonstration fixtures provided for testing the TravelPulse AI coordination platform. They have not been independently verified as official live dispatch lines.
+          </p>
         </div>
       </motion.div>
 
@@ -102,7 +132,7 @@ export default function SafetyPage() {
           )}
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {facilities.map((facility, i) => (
+            {filteredFacilities.map((facility: any, i: number) => (
               <motion.div
                 key={facility.id}
                 initial={{ opacity: 0, scale: 0.95 }}

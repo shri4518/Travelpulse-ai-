@@ -9,6 +9,7 @@ interface DestinationContextType {
   setCurrentDestination: (dest: Destination | null) => void;
   searchDestinations: (query: string) => Destination[];
   getDestinationsByCategory: (category: string) => Destination[];
+  allDestinations: Destination[];
 }
 
 const DestinationContext = createContext<DestinationContextType | undefined>(undefined);
@@ -16,20 +17,38 @@ const DestinationContext = createContext<DestinationContextType | undefined>(und
 export function DestinationProvider({ children }: { children: React.ReactNode }) {
   // Default to null initially so we don't force a destination
   const [currentDestination, setCurrentDestination] = useState<Destination | null>(null);
+  const [destinations, setDestinations] = useState<Destination[]>(seedDestinations);
+
+  useEffect(() => {
+    async function loadDbDestinations() {
+      try {
+        const res = await fetch('/api/destinations');
+        if (res.ok) {
+          const json = await res.json();
+          if (json.destinations && json.destinations.length > 0) {
+            setDestinations(json.destinations);
+          }
+        }
+      } catch (err) {
+        console.error('Failed to load destinations from database:', err);
+      }
+    }
+    loadDbDestinations();
+  }, []);
 
   const searchDestinations = (query: string) => {
     if (!query) return [];
     const q = query.toLowerCase();
-    return seedDestinations.filter(d => 
+    return destinations.filter(d => 
       d.name.toLowerCase().includes(q) || 
       d.state.toLowerCase().includes(q) || 
-      d.categories.some(c => c.toLowerCase().includes(q))
+      (Array.isArray(d.categories) && d.categories.some(c => c.toLowerCase().includes(q)))
     );
   };
 
   const getDestinationsByCategory = (category: string) => {
-    return seedDestinations.filter(d => 
-      d.categories.some(c => c.toLowerCase() === category.toLowerCase())
+    return destinations.filter(d => 
+      Array.isArray(d.categories) && d.categories.some(c => c.toLowerCase() === category.toLowerCase())
     );
   };
 
@@ -38,7 +57,8 @@ export function DestinationProvider({ children }: { children: React.ReactNode })
       currentDestination,
       setCurrentDestination,
       searchDestinations,
-      getDestinationsByCategory
+      getDestinationsByCategory,
+      allDestinations: destinations,
     }}>
       {children}
     </DestinationContext.Provider>

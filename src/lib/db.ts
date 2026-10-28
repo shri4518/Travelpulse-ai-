@@ -196,6 +196,59 @@ function initializeSchema(db: any) {
       avg_sustainability REAL NOT NULL,
       updated_at TEXT DEFAULT (datetime('now'))
     );
+
+    CREATE TABLE IF NOT EXISTS safety_facilities (
+      id TEXT PRIMARY KEY,
+      destination_id TEXT NOT NULL,
+      name TEXT NOT NULL,
+      type TEXT NOT NULL,
+      latitude REAL NOT NULL,
+      longitude REAL NOT NULL,
+      phone TEXT,
+      address TEXT,
+      is_24hr INTEGER DEFAULT 1,
+      verification_status TEXT DEFAULT 'VERIFIED',
+      emergency_services TEXT DEFAULT '[]',
+      created_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (destination_id) REFERENCES destinations(id) ON DELETE CASCADE
+    );
+
+    CREATE TABLE IF NOT EXISTS itineraries (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      title TEXT NOT NULL,
+      origin TEXT NOT NULL,
+      destination TEXT NOT NULL,
+      duration_days INTEGER NOT NULL,
+      budget REAL NOT NULL,
+      travelers INTEGER DEFAULT 1,
+      travel_style TEXT,
+      interests TEXT DEFAULT '[]',
+      food_preference TEXT,
+      accommodation_preference TEXT,
+      status TEXT DEFAULT 'PLANNED',
+      items TEXT NOT NULL,
+      optimization_log TEXT DEFAULT '[]',
+      total_estimated_cost REAL DEFAULT 0,
+      total_distance_km REAL DEFAULT 0,
+      local_businesses_count INTEGER DEFAULT 0,
+      sustainability_score REAL DEFAULT 0,
+      created_at TEXT DEFAULT (datetime('now')),
+      updated_at TEXT DEFAULT (datetime('now'))
+    );
+
+    CREATE TABLE IF NOT EXISTS tourism_analytics (
+      id TEXT PRIMARY KEY,
+      date TEXT NOT NULL UNIQUE,
+      total_visitors INTEGER NOT NULL DEFAULT 0,
+      avg_spend REAL NOT NULL DEFAULT 0,
+      hotel_occupancy_pct INTEGER NOT NULL DEFAULT 0,
+      local_biz_revenue REAL NOT NULL DEFAULT 0,
+      sustainability_index REAL NOT NULL DEFAULT 0,
+      top_attractions TEXT DEFAULT '[]',
+      crowd_distribution TEXT DEFAULT '[]',
+      created_at TEXT DEFAULT (datetime('now'))
+    );
   `);
 
   // Safely add any new columns to existing tables if table already existed prior
@@ -206,6 +259,19 @@ function initializeSchema(db: any) {
   try { db.exec(`ALTER TABLE businesses ADD COLUMN submitted_at TEXT;`); } catch {}
   try { db.exec(`ALTER TABLE businesses ADD COLUMN reviewed_at TEXT;`); } catch {}
   try { db.exec(`ALTER TABLE businesses ADD COLUMN reviewed_by TEXT;`); } catch {}
+  try { db.exec(`ALTER TABLE businesses ADD COLUMN image_url TEXT;`); } catch {}
+  try { db.exec(`ALTER TABLE businesses ADD COLUMN location TEXT;`); } catch {}
+  try { db.exec(`ALTER TABLE businesses ADD COLUMN is_open INTEGER DEFAULT 1;`); } catch {}
+  try { db.exec(`ALTER TABLE businesses ADD COLUMN price_level INTEGER DEFAULT 1;`); } catch {}
+
+  try { db.exec(`ALTER TABLE attractions ADD COLUMN image_url TEXT;`); } catch {}
+  try { db.exec(`ALTER TABLE attractions ADD COLUMN opening_hours TEXT;`); } catch {}
+  try { db.exec(`ALTER TABLE attractions ADD COLUMN avg_visit_duration_min INTEGER DEFAULT 60;`); } catch {}
+  try { db.exec(`ALTER TABLE attractions ADD COLUMN visitors_today INTEGER DEFAULT 0;`); } catch {}
+  try { db.exec(`ALTER TABLE attractions ADD COLUMN visitors_weekly INTEGER DEFAULT 0;`); } catch {}
+  try { db.exec(`ALTER TABLE attractions ADD COLUMN visitors_monthly INTEGER DEFAULT 0;`); } catch {}
+  try { db.exec(`ALTER TABLE attractions ADD COLUMN tourism_score REAL DEFAULT 0;`); } catch {}
+  try { db.exec(`ALTER TABLE attractions ADD COLUMN tags TEXT DEFAULT '[]';`); } catch {}
 }
 
 /**

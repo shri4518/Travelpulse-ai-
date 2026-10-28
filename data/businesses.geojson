@@ -1,0 +1,764 @@
+{
+  "type": "FeatureCollection",
+  "name": "",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "biz-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.654,
+          17.923
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-001",
+        "owner_id": null,
+        "name": "Brightland Resort & Spa",
+        "category": "hotel",
+        "description": "A luxury hillside resort with panoramic valley views, spa facilities, and an award-winning restaurant. Perfect for couples and families seeking a premium experience.",
+        "image_url": "/images/brightland.jpg",
+        "price_range": "premium",
+        "price_per_unit": 8500,
+        "rating": 4.6,
+        "review_count": 1240,
+        "contact_phone": "+91 2168 260606",
+        "contact_email": "reservations@brightlandresort.com",
+        "address": "Mahabaleshwar-Panchgani Road, Mahabaleshwar",
+        "amenities": [
+          "WiFi",
+          "Pool",
+          "Spa",
+          "Restaurant",
+          "Parking",
+          "Room Service"
+        ],
+        "is_local": false,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.651,
+          17.919
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-002",
+        "owner_id": null,
+        "name": "Evershine Resort",
+        "category": "hotel",
+        "description": "Set amidst strawberry farms with a resort feel. Features an indoor game zone, multi-cuisine restaurant and spacious rooms with garden views.",
+        "image_url": "/images/evershine.jpg",
+        "price_range": "mid-range",
+        "price_per_unit": 4200,
+        "rating": 4.3,
+        "review_count": 890,
+        "contact_phone": "+91 2168 260303",
+        "contact_email": "info@evershineresort.com",
+        "address": "Murray Peth, Mahabaleshwar",
+        "amenities": [
+          "WiFi",
+          "Restaurant",
+          "Indoor Games",
+          "Parking",
+          "Garden"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.66,
+          17.925
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-003",
+        "owner_id": null,
+        "name": "Mountain Retreat Homestay",
+        "category": "homestay",
+        "description": "A charming family-run homestay with authentic Maharashtrian hospitality. Home-cooked meals, organic garden, and a fireplace for cozy evenings.",
+        "image_url": "/images/mountain-retreat.jpg",
+        "price_range": "budget",
+        "price_per_unit": 1800,
+        "rating": 4.7,
+        "review_count": 320,
+        "contact_phone": "+91 98765 43210",
+        "contact_email": "mountainretreat@gmail.com",
+        "address": "Old Mahabaleshwar Road, Mahabaleshwar",
+        "amenities": [
+          "Home-cooked Meals",
+          "WiFi",
+          "Garden",
+          "Fireplace",
+          "Parking"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.653,
+          17.921
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-004",
+        "owner_id": null,
+        "name": "Bella Vista Resort",
+        "category": "hotel",
+        "description": "Modern resort with stunning valley views from every room. Features a rooftop café, yoga deck, and adventure activity packages.",
+        "image_url": "/images/bella-vista.jpg",
+        "price_range": "premium",
+        "price_per_unit": 7200,
+        "rating": 4.5,
+        "review_count": 670,
+        "contact_phone": "+91 2168 260505",
+        "contact_email": "stay@bellavista.in",
+        "address": "Panchgani Road, Mahabaleshwar",
+        "amenities": [
+          "WiFi",
+          "Rooftop Café",
+          "Yoga",
+          "Parking",
+          "Valley View",
+          "Adventure Packages"
+        ],
+        "is_local": false,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.662,
+          17.927
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-005",
+        "owner_id": null,
+        "name": "Valley View Homestay",
+        "category": "homestay",
+        "description": "A peaceful eco-friendly homestay surrounded by mulberry bushes and strawberry patches. Solar-powered with rainwater harvesting.",
+        "image_url": "/images/valley-view.jpg",
+        "price_range": "budget",
+        "price_per_unit": 1500,
+        "rating": 4.8,
+        "review_count": 185,
+        "contact_phone": "+91 87654 32109",
+        "contact_email": "valleyviewhomestay@gmail.com",
+        "address": "Lingmala Road, Mahabaleshwar",
+        "amenities": [
+          "Home-cooked Meals",
+          "Garden",
+          "Solar Power",
+          "Parking",
+          "Organic Farm"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.656,
+          17.922
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-006",
+        "owner_id": null,
+        "name": "Grapevine Restaurant",
+        "category": "restaurant",
+        "description": "Multi-cuisine restaurant known for continental and Indian fusion dishes. The mushroom risotto and strawberry desserts are signature items.",
+        "image_url": "/images/grapevine.jpg",
+        "price_range": "mid-range",
+        "price_per_unit": 600,
+        "rating": 4.4,
+        "review_count": 950,
+        "contact_phone": "+91 2168 260707",
+        "contact_email": "grapevine@email.com",
+        "address": "Main Road, Mahabaleshwar",
+        "amenities": [
+          "AC",
+          "Garden Seating",
+          "Live Music",
+          "Family Friendly"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6575,
+          17.9235
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-007",
+        "owner_id": null,
+        "name": "Rustik Kitchen",
+        "category": "restaurant",
+        "description": "Farm-to-table restaurant serving authentic Maharashtrian cuisine. Known for misal pav, pithla bhakri, and fresh strawberry cream.",
+        "image_url": "/images/rustik.jpg",
+        "price_range": "budget",
+        "price_per_unit": 350,
+        "rating": 4.6,
+        "review_count": 580,
+        "contact_phone": "+91 97654 12345",
+        "contact_email": "rustikkitchen@gmail.com",
+        "address": "Market Road, Mahabaleshwar",
+        "amenities": [
+          "Outdoor Seating",
+          "Local Cuisine",
+          "Vegetarian Options"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6545,
+          17.9255
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-008",
+        "owner_id": null,
+        "name": "Forest Trail Café",
+        "category": "restaurant",
+        "description": "A cozy café nestled among trees, serving artisanal coffee, fresh pastries, and wood-fired pizzas. Perfect for a quiet afternoon.",
+        "image_url": "/images/forest-trail.jpg",
+        "price_range": "mid-range",
+        "price_per_unit": 450,
+        "rating": 4.5,
+        "review_count": 410,
+        "contact_phone": "+91 88765 43210",
+        "contact_email": "foresttrail@email.com",
+        "address": "Lingmala Road, Mahabaleshwar",
+        "amenities": [
+          "WiFi",
+          "Outdoor Seating",
+          "Pet Friendly",
+          "Live Music"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.657,
+          17.924
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-009",
+        "owner_id": null,
+        "name": "Sahyadri Nature Trails",
+        "category": "guide",
+        "description": "Expert local nature guides offering curated treks through the Western Ghats. Specializing in bird watching, flora identification, and heritage walks.",
+        "image_url": "/images/sahyadri-trails.jpg",
+        "price_range": "mid-range",
+        "price_per_unit": 800,
+        "rating": 4.9,
+        "review_count": 230,
+        "contact_phone": "+91 96543 21098",
+        "contact_email": "sahyadritrails@gmail.com",
+        "address": "Main Bazaar, Mahabaleshwar",
+        "amenities": [
+          "Guided Treks",
+          "Bird Watching",
+          "Heritage Walk",
+          "Gear Provided"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.649,
+          17.918
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-010",
+        "owner_id": null,
+        "name": "Strawberry Farm Experience",
+        "category": "experience",
+        "description": "Visit a working strawberry farm. Pick your own strawberries, learn about organic farming, and enjoy fresh strawberry products.",
+        "image_url": "/images/strawberry-farm.jpg",
+        "price_range": "budget",
+        "price_per_unit": 250,
+        "rating": 4.7,
+        "review_count": 680,
+        "contact_phone": "+91 95432 10987",
+        "contact_email": "strawberryfarm@gmail.com",
+        "address": "Wai Road, Mahabaleshwar",
+        "amenities": [
+          "Farm Tour",
+          "Pick & Eat",
+          "Shop",
+          "Family Friendly"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.804,
+          17.9285
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-011",
+        "owner_id": null,
+        "name": "Panchgani Paragliding",
+        "category": "adventure",
+        "description": "Tandem paragliding from Table Land with certified pilots. Experience the Sahyadri ranges from 2,000 feet above with GoPro recording included.",
+        "image_url": "/images/paragliding.jpg",
+        "price_range": "mid-range",
+        "price_per_unit": 3500,
+        "rating": 4.8,
+        "review_count": 420,
+        "contact_phone": "+91 94321 09876",
+        "contact_email": "panchganiparagliding@gmail.com",
+        "address": "Table Land, Panchgani",
+        "amenities": [
+          "GoPro Video",
+          "Certified Pilots",
+          "Insurance",
+          "Transport"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6558,
+          17.9228
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-012",
+        "owner_id": null,
+        "name": "Mountain Bike Rentals",
+        "category": "transport",
+        "description": "Rent mountain bikes and explore Mahabaleshwar at your own pace. Helmets and maps included. Group discounts available.",
+        "image_url": "/images/bike-rentals.jpg",
+        "price_range": "budget",
+        "price_per_unit": 500,
+        "rating": 4.3,
+        "review_count": 310,
+        "contact_phone": "+91 93210 98765",
+        "contact_email": "mtbrentals@gmail.com",
+        "address": "Near Bus Stand, Mahabaleshwar",
+        "amenities": [
+          "Helmets Included",
+          "Maps",
+          "Group Discounts",
+          "Repair Kit"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6562,
+          17.9222
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-013",
+        "owner_id": null,
+        "name": "Local Handicraft Collective",
+        "category": "handicraft",
+        "description": "A cooperative of local artisans selling handcrafted leather goods, Kolhapuri chappals, bamboo crafts, and traditional Maharashtrian souvenirs.",
+        "image_url": "/images/handicraft.jpg",
+        "price_range": "budget",
+        "price_per_unit": 300,
+        "rating": 4.4,
+        "review_count": 190,
+        "contact_phone": "+91 92109 87654",
+        "contact_email": "localcrafts@gmail.com",
+        "address": "Market Road, Mahabaleshwar",
+        "amenities": [
+          "Handcrafted",
+          "Fair Trade",
+          "Gift Wrapping"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.661,
+          17.926
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-014",
+        "owner_id": null,
+        "name": "Spice Trail Experience",
+        "category": "experience",
+        "description": "A guided walk through spice gardens learning about cinnamon, cardamom, pepper and local herbs. Includes spice tasting and a cooking workshop.",
+        "image_url": "/images/spice-trail.jpg",
+        "price_range": "budget",
+        "price_per_unit": 400,
+        "rating": 4.6,
+        "review_count": 150,
+        "contact_phone": "+91 91098 76543",
+        "contact_email": "spicetrail@gmail.com",
+        "address": "Old Mahabaleshwar Road",
+        "amenities": [
+          "Guided Tour",
+          "Spice Tasting",
+          "Cooking Workshop",
+          "Shop"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.659,
+          17.9245
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "biz-015",
+        "owner_id": null,
+        "name": "Horse Riding Club",
+        "category": "experience",
+        "description": "Explore the scenic trails of Mahabaleshwar on horseback. Suitable for beginners and experienced riders.",
+        "image_url": "/images/horse-riding.jpg",
+        "price_range": "budget",
+        "price_per_unit": 400,
+        "rating": 4.5,
+        "review_count": 110,
+        "contact_phone": "+91 98765 43224",
+        "contact_email": "rides@mahabaleshwarhorses.com",
+        "address": "Near Venna Lake, Mahabaleshwar",
+        "amenities": [
+          "Guided Tours",
+          "Safety Gear",
+          "Beginner Friendly"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9482,
+          15.2415
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-goa",
+        "id": "biz-016",
+        "owner_id": null,
+        "name": "Taj Exotica Resort & Spa",
+        "category": "hotel",
+        "description": "Mediterranean-style 5-star resort in South Goa offering luxury villas, private beach access, and golf.",
+        "image_url": "/images/destinations/goa.jpg",
+        "price_range": "premium",
+        "price_per_unit": 15000,
+        "rating": 4.8,
+        "review_count": 1200,
+        "contact_phone": "+91 832 668 3333",
+        "contact_email": "exotica.goa@tajhotels.com",
+        "address": "Benaulim, South Goa",
+        "amenities": [
+          "Private Beach",
+          "Pool",
+          "Spa",
+          "Fine Dining"
+        ],
+        "is_local": false,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.74,
+          15.5733
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-goa",
+        "id": "biz-017",
+        "owner_id": null,
+        "name": "Curlies Beach Shack",
+        "category": "restaurant",
+        "description": "Iconic beach shack offering seafood, cocktails, and trance music right on Anjuna Beach.",
+        "image_url": "/images/destinations/goa.jpg",
+        "price_range": "mid-range",
+        "price_per_unit": 1200,
+        "rating": 4.3,
+        "review_count": 3500,
+        "contact_phone": "+91 98221 12345",
+        "contact_email": "hello@curliesgoa.com",
+        "address": "Anjuna Beach, North Goa",
+        "amenities": [
+          "Sea View",
+          "Live Music",
+          "Bar",
+          "Vegetarian Options"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8078,
+          26.8966
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-jaipur",
+        "id": "biz-018",
+        "owner_id": null,
+        "name": "Rambagh Palace",
+        "category": "hotel",
+        "description": "Former residence of the Maharaja of Jaipur, now a luxury hotel offering royal suites and grand architecture.",
+        "image_url": "/images/destinations/jaipur.jpg",
+        "price_range": "premium",
+        "price_per_unit": 25000,
+        "rating": 4.9,
+        "review_count": 2100,
+        "contact_phone": "+91 141 238 5700",
+        "contact_email": "rambagh@tajhotels.com",
+        "address": "Bhawani Singh Road, Jaipur",
+        "amenities": [
+          "Pool",
+          "Spa",
+          "Royal Dining",
+          "Heritage"
+        ],
+        "is_local": false,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.152,
+          32.316
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-manali",
+        "id": "biz-019",
+        "owner_id": null,
+        "name": "Himalayan Adventure Sports",
+        "category": "adventure",
+        "description": "Premier adventure company offering paragliding, river rafting, and trekking in the Solang Valley.",
+        "image_url": "/images/destinations/manali.jpg",
+        "price_range": "mid-range",
+        "price_per_unit": 2500,
+        "rating": 4.7,
+        "review_count": 450,
+        "contact_phone": "+91 98160 12345",
+        "contact_email": "info@himalayanadventures.com",
+        "address": "Solang Valley, Manali",
+        "amenities": [
+          "Certified Guides",
+          "Safety Gear",
+          "Transport"
+        ],
+        "is_local": true,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-j1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8083,
+          26.8974
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-jaipur",
+        "id": "biz-j1",
+        "name": "Rambagh Palace",
+        "category": "hotel",
+        "description": "Luxury hotel",
+        "location": "Jaipur",
+        "address": "Jaipur",
+        "is_open": true,
+        "rating": 4.8,
+        "review_count": 1200,
+        "price_level": 5,
+        "price_per_unit": 15000,
+        "amenities": [],
+        "eco_certified": false,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-g1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7517,
+          15.5523
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-goa",
+        "id": "biz-g1",
+        "name": "Titos Restaurant",
+        "category": "restaurant",
+        "description": "Seafood",
+        "location": "Goa",
+        "address": "Goa",
+        "is_open": true,
+        "rating": 4.5,
+        "review_count": 800,
+        "price_level": 3,
+        "price_per_unit": 1200,
+        "amenities": [],
+        "eco_certified": false,
+        "is_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biz-m1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1887,
+          32.2396
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-manali",
+        "id": "biz-m1",
+        "name": "Johnson Lodge",
+        "category": "hotel",
+        "description": "Cozy stay",
+        "location": "Manali",
+        "address": "Manali",
+        "is_open": true,
+        "rating": 4.6,
+        "review_count": 500,
+        "price_level": 3,
+        "price_per_unit": 3000,
+        "amenities": [],
+        "eco_certified": false,
+        "is_verified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "type": "FeatureCollection",
+  "name": "",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "safe-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6555,
+          17.9225
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "safe-001",
+        "name": "Mahabaleshwar Rural Hospital",
+        "type": "hospital",
+        "phone": "+91 2168 260208",
+        "address": "Main Road, Mahabaleshwar",
+        "is_24hr": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safe-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6562,
+          17.9232
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "safe-002",
+        "name": "Mahabaleshwar Police Station",
+        "type": "police",
+        "phone": "+91 2168 260233",
+        "address": "Main Bazaar, Mahabaleshwar",
+        "is_24hr": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safe-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.799,
+          17.927
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "safe-003",
+        "name": "Panchgani Sub-District Hospital",
+        "type": "hospital",
+        "phone": "+91 2168 240252",
+        "address": "Panchgani Main Road",
+        "is_24hr": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safe-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6548,
+          17.9228
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "safe-004",
+        "name": "Fire Brigade Station",
+        "type": "fire_station",
+        "phone": "+91 2168 260101",
+        "address": "Near Bus Stand, Mahabaleshwar",
+        "is_24hr": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safe-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6558,
+          17.922
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "safe-005",
+        "name": "Tourist Help Desk",
+        "type": "emergency",
+        "phone": "1363",
+        "address": "Bus Stand Complex, Mahabaleshwar",
+        "is_24hr": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safe-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.656,
+          17.9223
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "safe-006",
+        "name": "Lifeline Pharmacy",
+        "type": "pharmacy",
+        "phone": "+91 2168 260345",
+        "address": "Market Road, Mahabaleshwar",
+        "is_24hr": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safe-j1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8143,
+          26.9012
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-jaipur",
+        "id": "safe-j1",
+        "name": "SMS Hospital",
+        "type": "hospital",
+        "address": "Jaipur",
+        "phone": "102",
+        "is_24_7": true,
+        "verification_status": "verified",
+        "emergency_services": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safe-g1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.834,
+          15.4651
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-goa",
+        "id": "safe-g1",
+        "name": "Goa Medical College",
+        "type": "hospital",
+        "address": "Goa",
+        "phone": "102",
+        "is_24_7": true,
+        "verification_status": "verified",
+        "emergency_services": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safe-m1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1887,
+          32.2396
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-manali",
+        "id": "safe-m1",
+        "name": "Manali Mission Hospital",
+        "type": "hospital",
+        "address": "Manali",
+        "phone": "102",
+        "is_24_7": true,
+        "verification_status": "verified",
+        "emergency_services": []
+      }
+    }
+  ]
+}

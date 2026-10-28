@@ -1,0 +1,646 @@
+{
+  "type": "FeatureCollection",
+  "name": "",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "attr-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.655,
+          17.9215
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-001",
+        "name": "Venna Lake",
+        "type": "lake",
+        "description": "A picturesque lake surrounded by lush green trees, perfect for boating and leisurely walks. Built in 1842 by Shri Appasaheb Maharaj, it is the lifeline of Mahabaleshwar.",
+        "image_url": "/images/venna-lake.jpg",
+        "opening_hours": "6:00 AM - 8:00 PM",
+        "entry_fee": 0,
+        "avg_visit_duration_min": 102,
+        "crowd_level": "HIGH",
+        "visitors_today": 2840,
+        "visitors_weekly": 18200,
+        "visitors_monthly": 72500,
+        "tourism_score": 9.2,
+        "tags": [
+          "boating",
+          "nature",
+          "family",
+          "photography"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.578,
+          17.935
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-002",
+        "name": "Pratapgarh Fort",
+        "type": "fort",
+        "description": "A historic mountain fort built by Chhatrapati Shivaji Maharaj in 1656. Standing at 3,500 feet, it offers panoramic views and rich Maratha history.",
+        "image_url": "/images/pratapgarh-fort.jpg",
+        "opening_hours": "8:00 AM - 6:00 PM",
+        "entry_fee": 25,
+        "avg_visit_duration_min": 150,
+        "crowd_level": "MEDIUM",
+        "visitors_today": 1250,
+        "visitors_weekly": 8500,
+        "visitors_monthly": 34000,
+        "tourism_score": 8.8,
+        "tags": [
+          "history",
+          "trekking",
+          "photography",
+          "heritage"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.628,
+          17.918
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-003",
+        "name": "Mapro Garden",
+        "type": "garden",
+        "description": "A famous fruit processing unit and garden known for its strawberry products, chocolate fountain, and family-friendly activities. The annual Strawberry Festival is hugely popular.",
+        "image_url": "/images/mapro-garden.jpg",
+        "opening_hours": "8:00 AM - 9:00 PM",
+        "entry_fee": 0,
+        "avg_visit_duration_min": 90,
+        "crowd_level": "HIGH",
+        "visitors_today": 3200,
+        "visitors_weekly": 21000,
+        "visitors_monthly": 85000,
+        "tourism_score": 8.5,
+        "tags": [
+          "food",
+          "family",
+          "shopping",
+          "strawberry"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.635,
+          17.939
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-004",
+        "name": "Arthur's Seat",
+        "type": "viewpoint",
+        "description": "Known as the Queen of all viewpoints, Arthur's Seat offers breathtaking views of the Savitri river gorge at 1,340 meters. On clear days, you can see the Konkan coast.",
+        "image_url": "/images/arthurs-seat.jpg",
+        "opening_hours": "7:00 AM - 6:00 PM",
+        "entry_fee": 30,
+        "avg_visit_duration_min": 75,
+        "crowd_level": "MEDIUM",
+        "visitors_today": 1580,
+        "visitors_weekly": 10500,
+        "visitors_monthly": 42000,
+        "tourism_score": 9.5,
+        "tags": [
+          "viewpoint",
+          "nature",
+          "photography",
+          "trekking"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.629,
+          17.931
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-005",
+        "name": "Elephant's Head Point",
+        "type": "viewpoint",
+        "description": "Named after the rock formation resembling an elephant's head, this viewpoint offers stunning views of the Sahyadri ranges and the vast Deccan Plateau.",
+        "image_url": "/images/elephants-head.jpg",
+        "opening_hours": "7:00 AM - 6:00 PM",
+        "entry_fee": 20,
+        "avg_visit_duration_min": 45,
+        "crowd_level": "LOW",
+        "visitors_today": 620,
+        "visitors_weekly": 4200,
+        "visitors_monthly": 16800,
+        "tourism_score": 7.8,
+        "tags": [
+          "viewpoint",
+          "nature",
+          "photography",
+          "quiet"
+        ],
+        "is_hidden_gem": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.651,
+          17.926
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-006",
+        "name": "Wilson Point (Sunrise Point)",
+        "type": "viewpoint",
+        "description": "The highest point in Mahabaleshwar at 1,439 meters. Famous for spectacular sunrise views. Named after Sir Leslie Wilson, a former Governor of Bombay.",
+        "image_url": "/images/wilson-point.jpg",
+        "opening_hours": "5:00 AM - 6:00 PM",
+        "entry_fee": 20,
+        "avg_visit_duration_min": 60,
+        "crowd_level": "MEDIUM",
+        "visitors_today": 1890,
+        "visitors_weekly": 12500,
+        "visitors_monthly": 50000,
+        "tourism_score": 9,
+        "tags": [
+          "sunrise",
+          "viewpoint",
+          "photography",
+          "nature"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.638,
+          17.928
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-007",
+        "name": "Lingmala Waterfall",
+        "type": "waterfall",
+        "description": "A stunning waterfall cascading from a height of 600 feet, especially magnificent during monsoons. A short trek leads to the base for a refreshing experience.",
+        "image_url": "/images/lingmala-waterfall.jpg",
+        "opening_hours": "8:00 AM - 5:30 PM",
+        "entry_fee": 15,
+        "avg_visit_duration_min": 80,
+        "crowd_level": "MEDIUM",
+        "visitors_today": 980,
+        "visitors_weekly": 6800,
+        "visitors_monthly": 27200,
+        "tourism_score": 8.2,
+        "tags": [
+          "waterfall",
+          "trekking",
+          "nature",
+          "monsoon"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.803,
+          17.928
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-008",
+        "name": "Panchgani Table Land",
+        "type": "plateau",
+        "description": "Asia's second-largest flat laterite plateau. Offers panoramic 360-degree views, horse riding, paragliding and is a popular filming location.",
+        "image_url": "/images/table-land.jpg",
+        "opening_hours": "6:00 AM - 7:00 PM",
+        "entry_fee": 10,
+        "avg_visit_duration_min": 120,
+        "crowd_level": "HIGH",
+        "visitors_today": 2650,
+        "visitors_weekly": 17500,
+        "visitors_monthly": 70000,
+        "tourism_score": 9.1,
+        "tags": [
+          "plateau",
+          "adventure",
+          "photography",
+          "paragliding"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.795,
+          17.9195
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-009",
+        "name": "Parsi Point",
+        "type": "viewpoint",
+        "description": "A serene viewpoint offering magnificent views of the Krishna Valley. Less crowded than other points, making it perfect for a quiet retreat.",
+        "image_url": "/images/parsi-point.jpg",
+        "opening_hours": "7:00 AM - 6:30 PM",
+        "entry_fee": 15,
+        "avg_visit_duration_min": 40,
+        "crowd_level": "LOW",
+        "visitors_today": 450,
+        "visitors_weekly": 3100,
+        "visitors_monthly": 12400,
+        "tourism_score": 7.5,
+        "tags": [
+          "viewpoint",
+          "quiet",
+          "photography",
+          "nature"
+        ],
+        "is_hidden_gem": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.788,
+          17.915
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-010",
+        "name": "Kate's Point",
+        "type": "viewpoint",
+        "description": "Offers stunning views of the Dhom Dam backwaters and the Balakwadi Dam. A popular spot for photography enthusiasts and nature lovers.",
+        "image_url": "/images/kates-point.jpg",
+        "opening_hours": "7:00 AM - 6:00 PM",
+        "entry_fee": 20,
+        "avg_visit_duration_min": 50,
+        "crowd_level": "MEDIUM",
+        "visitors_today": 720,
+        "visitors_weekly": 4900,
+        "visitors_monthly": 19600,
+        "tourism_score": 7.9,
+        "tags": [
+          "viewpoint",
+          "dam",
+          "photography",
+          "nature"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.642,
+          17.934
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-011",
+        "name": "Connaught Peak",
+        "type": "viewpoint",
+        "description": "The third highest peak in Mahabaleshwar, offering panoramic views of the surrounding valleys and hills. A moderate trek leads to the summit.",
+        "image_url": "/images/connaught-peak.jpg",
+        "opening_hours": "7:00 AM - 5:00 PM",
+        "entry_fee": 10,
+        "avg_visit_duration_min": 90,
+        "crowd_level": "LOW",
+        "visitors_today": 340,
+        "visitors_weekly": 2400,
+        "visitors_monthly": 9600,
+        "tourism_score": 7.2,
+        "tags": [
+          "trekking",
+          "viewpoint",
+          "quiet",
+          "nature"
+        ],
+        "is_hidden_gem": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.665,
+          17.942
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-012",
+        "name": "Old Mahabaleshwar Temple",
+        "type": "temple",
+        "description": "An ancient temple complex dating back to the 16th century. The source of the Krishna River, one of the five sacred rivers of India, originates here.",
+        "image_url": "/images/old-mahabaleshwar.jpg",
+        "opening_hours": "5:00 AM - 9:00 PM",
+        "entry_fee": 0,
+        "avg_visit_duration_min": 60,
+        "crowd_level": "MEDIUM",
+        "visitors_today": 1120,
+        "visitors_weekly": 7800,
+        "visitors_monthly": 31200,
+        "tourism_score": 8.4,
+        "tags": [
+          "temple",
+          "heritage",
+          "spiritual",
+          "history"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.648,
+          17.92
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-013",
+        "name": "Bombay Point (Sunset Point)",
+        "type": "viewpoint",
+        "description": "The most famous sunset viewing spot in Mahabaleshwar. On clear evenings, you can see a spectacular orange-red sunset over the valley.",
+        "image_url": "/images/bombay-point.jpg",
+        "opening_hours": "5:00 PM - 7:30 PM",
+        "entry_fee": 25,
+        "avg_visit_duration_min": 60,
+        "crowd_level": "HIGH",
+        "visitors_today": 2100,
+        "visitors_weekly": 14700,
+        "visitors_monthly": 58800,
+        "tourism_score": 9.3,
+        "tags": [
+          "sunset",
+          "viewpoint",
+          "photography",
+          "romantic"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.792,
+          17.917
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-014",
+        "name": "Sidney Point",
+        "type": "viewpoint",
+        "description": "A less-visited viewpoint offering beautiful views of the Krishna Valley. Known for its peaceful ambiance and excellent sunset views.",
+        "image_url": "/images/sidney-point.jpg",
+        "opening_hours": "7:00 AM - 6:30 PM",
+        "entry_fee": 10,
+        "avg_visit_duration_min": 35,
+        "crowd_level": "LOW",
+        "visitors_today": 280,
+        "visitors_weekly": 1900,
+        "visitors_monthly": 7600,
+        "tourism_score": 6.8,
+        "tags": [
+          "viewpoint",
+          "quiet",
+          "nature",
+          "hidden-gem"
+        ],
+        "is_hidden_gem": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6565,
+          17.9225
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-mahabaleshwar",
+        "id": "attr-015",
+        "name": "Mahabaleshwar Market",
+        "type": "market",
+        "description": "The bustling main market street famous for fresh strawberries, mulberries, local honey, leather goods, and traditional Maharashtrian handicrafts.",
+        "image_url": "/images/market.jpg",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "entry_fee": 0,
+        "avg_visit_duration_min": 90,
+        "crowd_level": "HIGH",
+        "visitors_today": 4200,
+        "visitors_weekly": 28000,
+        "visitors_monthly": 112000,
+        "tourism_score": 8,
+        "tags": [
+          "shopping",
+          "food",
+          "local",
+          "strawberry"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-j1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8513,
+          26.9855
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-jaipur",
+        "id": "attr-j1",
+        "name": "Amber Fort",
+        "type": "fort",
+        "description": "Historic fort.",
+        "image_url": "",
+        "opening_hours": "8AM-5PM",
+        "entry_fee": 100,
+        "avg_visit_duration_min": 120,
+        "crowd_level": "HIGH",
+        "visitors_today": 1000,
+        "visitors_weekly": 5000,
+        "visitors_monthly": 20000,
+        "tourism_score": 9.5,
+        "tags": [
+          "fort"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-j2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8267,
+          26.9239
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-jaipur",
+        "id": "attr-j2",
+        "name": "Hawa Mahal",
+        "type": "monument",
+        "description": "Palace of winds.",
+        "image_url": "",
+        "opening_hours": "9AM-4PM",
+        "entry_fee": 50,
+        "avg_visit_duration_min": 60,
+        "crowd_level": "HIGH",
+        "visitors_today": 800,
+        "visitors_weekly": 4000,
+        "visitors_monthly": 15000,
+        "tourism_score": 9,
+        "tags": [
+          "monument"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-g1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7517,
+          15.5523
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-goa",
+        "id": "attr-g1",
+        "name": "Baga Beach",
+        "type": "beach",
+        "description": "Popular beach.",
+        "image_url": "",
+        "opening_hours": "24 hrs",
+        "entry_fee": 0,
+        "avg_visit_duration_min": 180,
+        "crowd_level": "HIGH",
+        "visitors_today": 2000,
+        "visitors_weekly": 10000,
+        "visitors_monthly": 40000,
+        "tourism_score": 8.5,
+        "tags": [
+          "beach"
+        ],
+        "is_hidden_gem": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "attr-m1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.15,
+          32.3167
+        ]
+      },
+      "properties": {
+        "destination_id": "dest-manali",
+        "id": "attr-m1",
+        "name": "Solang Valley",
+        "type": "valley",
+        "description": "Adventure sports.",
+        "image_url": "",
+        "opening_hours": "9AM-6PM",
+        "entry_fee": 0,
+        "avg_visit_duration_min": 240,
+        "crowd_level": "MEDIUM",
+        "visitors_today": 1500,
+        "visitors_weekly": 8000,
+        "visitors_monthly": 32000,
+        "tourism_score": 9.2,
+        "tags": [
+          "adventure"
+        ],
+        "is_hidden_gem": false
+      }
+    }
+  ]
+}
