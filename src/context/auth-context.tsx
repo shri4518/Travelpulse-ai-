@@ -189,9 +189,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const logout = useCallback(() => {
     setUser(null);
-    localStorage.removeItem('travelpulse_user');
-    // Also call server logout
-    fetch('/api/auth/logout', { method: 'POST' }).catch(() => {});
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem('travelpulse_user');
+      // Also call server logout
+      fetch('/api/auth/logout', { method: 'POST' }).catch(() => {});
+      window.location.href = '/';
+    }
   }, []);
 
   const updateProfile = useCallback((data: Partial<UserProfile>) => {
