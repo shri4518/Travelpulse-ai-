@@ -1,9 +1,0 @@
-feat: import TravelPulse AI dataset pack with full schema, validation, and API routes
-
-- Add and import GeoJSON datasets for 15 destinations, 19 attractions, 22 businesses, and 9 safety facilities
-- Import sample 3-day Mahabaleshwar itinerary (17 items) and 30-day tourism and business analytics
-- Extend scripts/import-data.mjs with dependency-ordered pipeline, --dry-run support, FK validation, coordinate verification, and preservation of existing business owner relationships
-- Add safety_facilities, itineraries, and tourism_analytics tables to SQLite (db.ts) and PostgreSQL (supabase/schema.sql)
-- Implement public API endpoints /api/destinations, /api/safety, and /api/itineraries
-- Connect Tourist Safety portal to /api/safety with demonstration notice compliance banner
-- Connect DestinationProvider to /api/destinations for dynamic city ecosystems
